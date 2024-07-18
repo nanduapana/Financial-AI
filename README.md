@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI-powered Financial Portfolio Analysis using Sentiment Analysis of News Articles
 
 ## Project Overview
@@ -15,3 +16,7 @@ To set up the project, run:
 ```bash
 pip install -r requirements.txt
  
+=======
+# Financial-AI
+AI-powered Financial Portfolio Analysis using Sentiment Analysis of News Articles
+>>>>>>> 85773762dc1af77158e8eea97a7f6d6dc5a84669
