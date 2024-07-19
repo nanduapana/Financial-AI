@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# AI-powered Financial Portfolio Analysis using Sentiment Analysis of News Articles
+# AI-Powered Financial Portfolio Analysis using Sentiment Analysis of News Articles
 
 ## Project Overview
 This project aims to analyze financial news articles to determine their sentiment and understand the impact on financial portfolios.
