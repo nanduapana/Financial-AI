@@ -1,4 +1,3 @@
-import numpy as np
 import requests
 from bs4 import BeautifulSoup
 import os
@@ -6,7 +5,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 from transformers import pipeline
 
-sentiment_analyzer = pipeline('sentiment-analysis', max_length=512, truncation=True)
+sentiment_analyzer = pipeline('sentiment-analysis',max_length=1024)
 BASE_URL = 'https://www.moneycontrol.com'
 DAYS = 2
 OUTPUT_DIR = 'data/raw'
@@ -72,6 +71,18 @@ def general_news(base_url):
         categories.append({category_name:category_url})
     return categories, main_news_data
 
+# def fetch_news_urls(base_url, days):
+#     news_urls = []
+#     for i in range(days):
+#         date = (datetime.now() - timedelta(days=i)).strftime('%Y-%m-%d')
+#         url = f"{base_url}/news/{date}"
+#         response = requests.get(url)
+#         if response.status_code == 200:
+#             soup = BeautifulSoup(response.content, 'html.parser')
+#             for a_tag in soup.find_all('a', href=True):
+#                 if '/news/' in a_tag['href']:
+#                     news_urls.append(a_tag['href'])
+#     return news_urls
 
 def fetch_content(content_url):
     response = requests.get(content_url)
@@ -90,6 +101,25 @@ def fetch_content(content_url):
         return None
     return None
 
+# def fetch_article(url):
+#     response = requests.get(url)
+#     if response.status_code == 200:
+#         soup = BeautifulSoup(response.content, 'html.parser')
+#         title_tag = soup.find('h1')
+#         if title_tag:
+#             title = title_tag.get_text()
+#             if not title_tag.find("a"):
+#                 return None, None
+#             header_url = title_tag.find("a")["href"]
+#             if title_tag and header_url and title_tag.find("a"):
+#                 content = fetch_content(header_url)
+#                 content = ' '.join(p.get_text() for p in content)
+#                 return title, content
+#
+#             else:
+#                 print(f"No <h1> tag found in {url}")
+#     return None, None
+
 def analyze_sentiment(text):
     print(text)
     result = sentiment_analyzer(text)
@@ -103,22 +133,51 @@ def create_csv_file(content, name):
     df = pd.DataFrame(content)
     df.to_csv(os.path.join(OUTPUT_DIR, f'{name}_{date}.csv'), index=False)
 
-categories, anchors = general_news(BASE_URL)
-categorial_news = category_news(categories)
+# def scrape_news(base_url, days, output_dir):
+#     if not os.path.exists(output_dir):
+#         os.makedirs(output_dir)
+#
+#     for i in range(days):
+#         date = (datetime.now() - timedelta(days=i)).strftime('%Y-%m-%d')
+#         news_urls = fetch_news_urls(base_url, 1)  # Fetch URLs for one day at a time
+#         articles = []
+#         for url in news_urls:
+#             title, content = fetch_article(url)
+#             # if title and content:
+#             #     sentiment = analyze_sentiment(content[0:200])
+#             #     articles.append({'title': title, 'content': content, 'url': url, 'sentiment': sentiment})
+#
+#
+#         # df = pd.DataFrame(articles)
+#         # df.to_csv(os.path.join(output_dir, f'news_articles_{date}.csv'), index=False)
 
-final_news_urls = anchors + categorial_news
 
-content_data=[]
-for article_url in final_news_urls:
-    if article_url["url"].startswith("https://www.moneycontrol.com"):
-        print(article_url["url"])
-        content = fetch_content(article_url["url"])
-        if content:
-            # sentiment = avg_sentiment(content)
-            content = ' '.join(p.get_text() for p in content)
-            sentiment = analyze_sentiment(content)
-            article_url["content"]=content
-            article_url["sentiment"]=sentiment
-            content_data.append(article_url)
 
-create_csv_file(content_data, "content_data")
+# scrape_news(BASE_URL, DAYS, OUTPUT_DIR)
+# categories, anchors = general_news(BASE_URL)
+# categorial_news = category_news(categories)
+
+# final_news_urls = anchors + categorial_news
+# create_csv_file(final_news_urls, "content_urls")
+# content_data=[]
+
+# print(len(final_news_urls))
+# counter=1
+# for article_url in final_news_urls:
+#     print(counter)
+#     if article_url["url"].startswith("https://www.moneycontrol.com"):
+#         content = fetch_content(article_url["url"])
+#         if content:
+#             content = ' '.join(p.get_text() for p in content)
+#             article_url["content"]=content
+#             content_data.append(article_url)
+#     counter+=1
+
+# create_csv_file(content_data, "content_data")
+
+
+content = fetch_content("https://www.moneycontrol.com/news/world/joe-biden-pulls-out-of-us-presidential-race-12774097.html")
+
+if content:
+    content = ' '.join(p.get_text() for p in content)
+    analyze_sentiment(content)
