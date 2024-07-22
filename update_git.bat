@@ -10,6 +10,6 @@ if %errorlevel% neq 0 (
 git add .
 git commit -m "Updated data and preprocessing scripts"
 
-git push origin main  :: Change to master if your default branch is master
+git push origin main 
 
 pause
