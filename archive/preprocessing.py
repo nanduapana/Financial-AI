@@ -14,8 +14,8 @@ def preprocess_data(data_path, output_path):
     # Read the CSV data
     df = pd.read_csv(data_path)
 
-    # Get the text column (assuming a column named 'content')
-    text_column = 'content'  # Replace with the actual column name for your text data
+    # Get the text column 'content'
+    text_column = 'content'  
 
     # Preprocessing steps for the text column:
     df[text_column] = df[text_column].apply(lambda text: preprocess_text(text))
@@ -49,10 +49,10 @@ def preprocess_text(text):
     return cleaned_text
 
 # Data directory path
-data_dir = r"C:\Users\nandk\Documents\Project Documentation\Financial-AI\data"
+data_dir = r"C:\Users\nandk\Documents\Project Documentation\Financial-AI\src\data"
 
 # Get all CSV files in the raw data folder
-raw_data_folder = os.path.join(data_dir, "raw_data")
+raw_data_folder = os.path.join(data_dir, "raw")
 csv_files = [f for f in os.listdir(raw_data_folder) if f.endswith(".csv")]
 
 # Process each CSV file
