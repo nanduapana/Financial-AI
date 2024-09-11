@@ -5,18 +5,18 @@ import nltk
 from nltk.corpus import stopwords  # Import stopwords for removal
 from nltk.tokenize import word_tokenize  # Import for tokenization
 
-# Download necessary NLTK data
+# To download necessary NLTK data
 nltk.download('stopwords')
 nltk.download('punkt')
 
 def preprocess_data(data_path, output_path):
-    # Read the CSV data
+    # To read the CSV data
     df = pd.read_csv(data_path)
 
-    # Debug: Print the columns of the DataFrame
+    # To debug: Print the columns of the DataFrame
     print(f"Columns in the DataFrame: {df.columns.tolist()}")
 
-    # Ensure the 'content' column exists before proceeding
+    # To ensure the 'content' column exists before proceeding
     if 'content' not in df.columns:
         raise KeyError("The 'content' column is missing from the DataFrame")
 
@@ -36,7 +36,7 @@ def preprocess_data(data_path, output_path):
     # 5. Preprocessing steps for the 'content' column
     df['content'] = df['content'].apply(preprocess_text)
 
-    # Save the preprocessed data
+    # To Save the preprocessed data
     df.to_csv(output_path, index=False)
 
     return df
@@ -70,11 +70,11 @@ def preprocess_text(text):
 # Data directory path
 data_dir = r"C:\Users\nandk\Documents\Project Documentation\Financial-AI\src\data"
 
-# Get all CSV files in the raw data folder
+# To get all CSV files in the raw data folder
 raw_data_folder = os.path.join(data_dir, "raw")
 csv_files = [f for f in os.listdir(raw_data_folder) if f.endswith(".csv") and f.startswith("content_data_")]
 
-# Process each CSV file
+# To process each CSV file
 for filename in csv_files:
     # Construct data paths
     data_path = os.path.join(raw_data_folder, filename)
