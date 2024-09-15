@@ -1,6 +1,3 @@
-data/*.csv
-__pycache__/
-*.pyc 
 "Financial-AI" 
 .venv
 .env

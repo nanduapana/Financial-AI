@@ -1,3 +1,10 @@
+"""
+Author: Nandkumar Patil
+Project: Financial-AI Project
+Description: This script does preprocessign of the news article data.
+
+"""
+
 import pandas as pd
 import os
 import re
@@ -26,19 +33,19 @@ def preprocess_data(data_path, output_path):
     # 2. Remove records where 'content' is missing
     df.dropna(subset=['content'], inplace=True)
 
-    # 3. Parse the 'date' column with the specified format
-    df['date'] = pd.to_datetime(df['date'], format='%B %d, %Y %I:%M %p', errors='coerce')
-
-    # 4. Add the latest date to rows with missing 'date'
-    latest_date = df['date'].max()
-    df['date'] = df['date'].fillna(latest_date)
+    # Convert the date column to datetime & Add the latest date to rows with missing 'date'
+    df['date'] = df['date'].str.strip()
+    df['date'] = pd.to_datetime(df['date'], format='%B %d, %Y / %H:%M', errors='coerce').dt.date
+    print(df['date'])
+    df['date'] = df['date'].replace(['NA', ''], pd.NA)
+    df['date'] = df['date'].bfill()
 
     # 5. Preprocessing steps for the 'content' column
     df['content'] = df['content'].apply(preprocess_text)
 
     # To Save the preprocessed data
     df.to_csv(output_path, index=False)
-
+    print(df)
     return df
 
 def preprocess_text(text):
@@ -68,22 +75,18 @@ def preprocess_text(text):
     return text
 
 # Data directory path
-data_dir = r"C:\Users\nandk\Documents\Project Documentation\Financial-AI\src\data"
+data_dir = r'C:\Users\nandk\Documents\Project Documentation\Financial-AI\src\data'
 
 # To get all CSV files in the raw data folder
 raw_data_folder = os.path.join(data_dir, "raw")
-csv_files = [f for f in os.listdir(raw_data_folder) if f.endswith(".csv") and f.startswith("content_data_")]
+raw_csv_file = [f for f in os.listdir(raw_data_folder) if f.endswith(".csv") and f.startswith("content_data_")]
+data_path = os.path.join(raw_data_folder, raw_csv_file[0] )
 
-# To process each CSV file
-for filename in csv_files:
-    # Construct data paths
-    data_path = os.path.join(raw_data_folder, filename)
-    processed_data_folder = os.path.join(data_dir, "processed_data")  # Create processed_data folder if it doesn't exist
-    os.makedirs(processed_data_folder, exist_ok=True)  # Create processed_data folder if needed
+# Create the processed_data folder if it doesn't exist
+processed_data_folder = os.path.join(data_dir, "processed_data")
+os.makedirs(processed_data_folder, exist_ok=True)  # Create processed_data folder if needed
 
-    # Define the output path with the new naming convention
-    output_path = os.path.join(processed_data_folder, f"processed_data_{filename}")
+output_path = os.path.join(processed_data_folder, f"pd_{raw_csv_file[0]}")
 
-    # Preprocess and save the data
-    df = preprocess_data(data_path, output_path)
-    print(f"Processed data saved to: {output_path}")
+df = preprocess_data(data_path, output_path)
+print(f"Processed data saved to: {output_path}")

@@ -1,40 +1,67 @@
+"""
+Author: Nandkumar Patil
+Project: Financial-AI Project
+Description: This script does mapping of stock against the news articles.
+
+"""
 import pandas as pd
 import re
+from datetime import datetime
+import json
 
-# Step 1: Load the data from the CSV files
-# Path to the article content CSV file
-article_file_path = r'C:\Users\nandk\Documents\Project Documentation\Financial-AI\src\data\processed_data\processed_data_content_data_2024-07-28.csv'
+# Step 1: Get the current date in the format YYYY-MM-DD
+current_date = datetime.now().strftime('%Y-%m-%d')
+
+# Step 2: Build the file path for the article content CSV file
+article_file_name = f'pd_content_data_{current_date}.csv'
+article_file_path = rf'C:\Users\nandk\Documents\Project Documentation\Financial-AI\src\data\processed_data\{article_file_name}'
+print(article_file_path)
 
 # Path to the NSE indices CSV file
-nse_file_path = r'C:\Users\nandk\Documents\Project Documentation\Financial-AI\src\data\processed_data\nse_indices.csv'
-
-# Load the articles data
-news_df = pd.read_csv(article_file_path)
-
-# Load the stock company list
-stocks_df = pd.read_csv(nse_file_path)
-
-# Step 2: Clean and preprocess stock names
-# Convert stock company names to lowercase and strip extra whitespace for consistency
-stocks_df['Company'] = stocks_df['Company'].str.lower().str.strip()
+stock_file_name = f'pd_nse_indices_{current_date}.csv'
+stock_file_path = rf'C:\Users\nandk\Documents\Project Documentation\Financial-AI\src\data\processed_data\{stock_file_name}'
+print(stock_file_path)
 
 # Step 3: Define a function to map companies to articles
-def map_stocks_to_article(article_text, stock_names):
-    # Clean and lowercase the article text for matching
-    article_text_cleaned = article_text.lower()
-    
-    # Find all companies mentioned in the article content
-    matched_companies = [company for company in stock_names if re.search(r'\b' + re.escape(company) + r'\b', article_text_cleaned)]
-    
-    # Return a comma-separated list of matched companies if any are found
-    return ', '.join(matched_companies) if matched_companies else None
+# def map_stocks():
+#     article_df = pd.read_csv(article_file_path)
+#     article_json = article_df.to_json(orient='records')
+#     article_json = json.loads(article_json)
 
-# Step 4: Apply the mapping logic to map stocks to each article
-# Assuming the news articles dataset has a 'content' column containing the article's main text
-news_df['MappedCompanies'] = news_df['content'].apply(lambda x: map_stocks_to_article(x, stocks_df['Company'].tolist()))
+#     stocks_df = pd.read_csv(stock_file_path)
 
-# Step 5: Save the updated dataset with mapped companies
-output_file_path = r'C:\Users\nandk\Documents\Project Documentation\Financial-AI\src\data\processed_data\mapped_news_articles_2024-07-28.csv'
-news_df.to_csv(output_file_path, index=False)
+#     Company_Name = stocks_df["Processed_Company"]
+#     mapped_stocks = []
+#     for art in article_json:
+#         searched_stocks = []
 
-print(f'Mapping completed. Mapped articles saved to {output_file_path}')
+#         for sym in Company_Name:
+#             if type(sym) == str and type(art["content"]) == str:
+#                 aa = re.search(rf'\b{sym}\b', art["content"].lower())
+#                 if aa:
+#                     searched_stocks.append(aa.group(0))
+
+#         if len(searched_stocks) > 0:
+#             art["stock_map"] = ",".join(searched_stocks)
+#         else:
+#             art["stock_map"] = "NA"
+#     outputFile = open("article_json.json", "w")
+#     json.dump(article_json, outputFile, indent=6)
+#     outputFile.close()
+#     df = pd.read_json("article_json.json")
+#     df.to_csv("article_csv.csv")
+#     pass
+
+# map_stocks()
+
+content_df = pd.read_csv(article_file_path)
+stock_df = pd.read_csv(stock_file_path)
+stock_names = stock_df['Processed_Company'].tolist()
+
+def find_stocks_in_content(content, stocks):
+    found_stocks = [stock for stock in stocks if stock.lower() in content.lower()]
+    return ', '.join(found_stocks) if found_stocks else 'NA'
+
+content_df['Stock_Names'] = content_df['content'].apply(lambda x: find_stocks_in_content(x, stock_names))
+
+content_df.to_csv(article_file_path, index=False)

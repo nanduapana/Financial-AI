@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Sentiment Gauge</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+
+        .gauge-container {
+            text-align: center;
+        }
+
+        .gauge-container h3 {
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: normal;
+        }
+
+        .sentiment-counts {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .sentiment-counts div {
+            text-align: center;
+        }
+
+        .sentiment-counts div span {
+            display: block;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        canvas {
+            width: 250px !important;
+            height: 250px !important;
+        }
+    </style>
+</head>
+<body>
+
+<div class="gauge-container">
+    <h3>Summary</h3>
+    <canvas id="gaugeChart"></canvas>
+    <h4 id="gaugeLabel" style="margin-top: -20px;">Buy</h4>
+    <div class="sentiment-counts">
+        <div>
+            <span id="sellCount">{{ NEGATIVE }}</span>
+            <p>Sell</p>
+        </div>
+        <div>
+            <span id="neutralCount">{{ TOTAL }}</span>
+            <p>Neutral</p>
+        </div>
+        <div>
+            <span id="buyCount">{{ POSITIVE }}</span>
+            <p>Buy</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Data
+    const sentimentData = {
+        sell: '{{ NEGATIVE }}',
+        neutral: '{{ TOTAL }}',
+        buy: '{{ POSITIVE }}'
+    };
+
+    // Set sentiment counts
+    document.getElementById('sellCount').textContent = sentimentData.sell;
+    document.getElementById('neutralCount').textContent = sentimentData.neutral;
+    document.getElementById('buyCount').textContent = sentimentData.buy;
+
+    // Calculate gauge value
+    const total = sentimentData.sell + sentimentData.neutral + sentimentData.buy;
+    const buyRatio = (sentimentData.buy / total) * 100;
+
+    // Update gauge label
+    let gaugeLabel = 'Buy';
+    if (buyRatio > 50) {
+        gaugeLabel = 'Buy';
+    } else if (buyRatio > 25) {
+        gaugeLabel = 'Neutral';
+    } else {
+        gaugeLabel = 'Sell';
+    }
+    document.getElementById('gaugeLabel').textContent = gaugeLabel;
+
+    // Create the gauge chart using Chart.js
+    const ctx = document.getElementById('gaugeChart').getContext('2d');
+    const gaugeChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: ['Strong Sell', 'Sell', 'Neutral', 'Buy', 'Strong Buy'],
+            datasets: [{
+                data: [20, 20, 20, 20, 20], // Equal distribution for illustration
+                backgroundColor: ['#f44336', '#ff7043', '#ddd', '#42a5f5', '#1e88e5'],
+                borderWidth: 1,
+                cutout: '80%',
+                rotation: 270,
+                circumference: 180,
+            }]
+        },
+        options: {
+            plugins: {
+                tooltip: { enabled: false }
+            },
+            responsive: true,
+            maintainAspectRatio: false,
+            rotation: 270,
+            circumference: 180,
+            cutout: '70%',
+            events: [], // Disable hover events
+        }
+    });
+</script>
+
+</body>
+</html>

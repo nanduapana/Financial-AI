@@ -6,7 +6,7 @@ import pandas as pd
 from datetime import datetime
 
 # To define the directory for saving the CSV file
-csv_directory = "data/raw/"
+csv_directory = r'C:\Users\nandk\Documents\Project Documentation\Financial-AI\src\data\raw'
 
 # To ensure the directory exists
 os.makedirs(csv_directory, exist_ok=True)

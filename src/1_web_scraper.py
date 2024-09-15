@@ -1,3 +1,10 @@
+"""
+Author: Nandkumar Patil
+Project: Financial-AI Project
+Description: This script does data collection of news articles from news website by web scrapping method.
+
+"""
+
 import numpy as np
 import requests
 from bs4 import BeautifulSoup
@@ -6,10 +13,9 @@ import pandas as pd
 from datetime import datetime, timedelta
 from transformers import pipeline
 
-sentiment_analyzer = pipeline('sentiment-analysis', max_length=512, truncation=True)
 BASE_URL = 'https://www.moneycontrol.com'
-DAYS = 2
-OUTPUT_DIR = 'data/raw'
+DAYS = 1
+OUTPUT_DIR = r'C:\Users\nandk\Documents\Project Documentation\Financial-AI\src\data\raw'
 
 def extract_header_and_url(anchors, category="general"):
     header_urls = []
@@ -38,7 +44,7 @@ def category_news(categorical_type_news):
             paginate = True
             while paginate:
                 news_url = f"{news[news_category]}/page-{page_number}/"
-                print(news_url, "<<<news url")
+
                 response = requests.get(news_url)
                 soup=BeautifulSoup(response.content, 'html.parser')
                 category_list = soup.find(id="cagetory")
@@ -47,42 +53,30 @@ def category_news(categorical_type_news):
                     lis = category_list.find_all("li", {"class":"clearfix"})
                     anchors=[]
                     for li in lis:
-                        # print(li)
-                        # article_date = li.find("span").get_text()
-                        # oodate = datetime.strptime(article_date, '%B %d, %Y %I:%M %p %Z')  # .strftime('%Y-%m-%d')
-                        # delta = datetime.now() - oodate
-                        # if delta.days > DAYS:
-                        #     paginate = False
+
                         anchor_url = li.find("a")
-                        # print(anchor_url, "<<<<<<<<<")
-                        if anchor_url and anchor_url["href"].startswith("https://www.moneycontrol.com"):
+                        
+                        if anchor_url and anchor_url["href"].startswith(BASE_URL):
                             content, article_date = fetch_content(anchor_url['href'])
-                            # print(content)
-
-
 
                             if article_date and content:
                                 content = ' '.join(p.get_text() for p in content)
-                                sentiment = analyze_sentiment(content)
-                                anchors.append({
-                                    # "anchor":li.find("a")['href'],
 
+                                anchors.append({
                                     "title": li.find("a")['title'],
                                     "url": li.find("a")['href'],
                                     "type": news_category,
                                     "date": article_date,
                                     "content" : content,
-                                    "sentiment" : sentiment
                                 })
                             else:
                                 paginate = False
                                 print(article_date, "====", paginate, "<<<paginate")
 
-                    categorical_news = categorical_news + anchors#+ extract_header_and_url(anchors, news_category)
+                    categorical_news = categorical_news + anchors 
                     page_number+=1
                     print(page_number, "<<<page_number")
     return categorical_news
-    # return anchors
 
 def general_news(base_url):
     response = requests.get(base_url)
@@ -140,11 +134,6 @@ def fetch_content(content_url):
         return None, None
     return None, None
 
-def analyze_sentiment(text):
-    result = sentiment_analyzer(text)
-    return result[0]['label']
-
-
 def check_delta(date_str):
     # oodate = datetime.strptime(date_str, '%B %d, %Y %I:%M %p %Z')  # .strftime('%Y-%m-%d')
     oodate = datetime.strptime(date_str.strip(), '%B %d, %Y / %H:%M')  # .strftime('%Y-%m-%d')
@@ -159,9 +148,6 @@ def create_csv_file(content, name):
     date = datetime.now().strftime('%Y-%m-%d')
     df = pd.DataFrame(content)
     df.to_csv(os.path.join(OUTPUT_DIR, f'{name}_{date}.csv'), index=False)
-
-
-
 
 def remove_duplicates(file_name):
     df = pd.read_csv(file_name)
@@ -181,32 +167,15 @@ def validate_data_frame(df):
 categories, anchors = general_news(BASE_URL)
 content_data=[]
 for anchor in anchors:
-    if anchor["url"].startswith("https://www.moneycontrol.com"):
+    if anchor["url"].startswith(BASE_URL):
         content, article_date = fetch_content(anchor["url"])
         if content:
             content = ' '.join(p.get_text() for p in content)
-            sentiment = analyze_sentiment(content)
             anchor["content"]=content
-            anchor["sentiment"]=sentiment
             anchor["date"]=article_date
             content_data.append(anchor)
 
 categorial_news = category_news(categories)
 final_news_urls = anchors + categorial_news
-# ###################################################################################
-# # create_csv_file(final_news_urls, "content_urls")
-# # content_data=[]
-# # for article_url in final_news_urls:
-# #     if article_url["url"].startswith("https://www.moneycontrol.com"):
-# #         print(article_url["url"])
-# #         content = fetch_content(article_url["url"])
-# #         if content:
-# #             content = ' '.join(p.get_text() for p in content)
-# #             sentiment = analyze_sentiment(content)
-# #             article_url["content"]=content
-# #             article_url["sentiment"]=sentiment
-# #             content_data.append(article_url)
-# ###################################################################################
+
 create_csv_file(final_news_urls, "content_data")
-df = remove_duplicates("data/raw/content_data_2024-08-24.csv")
-validate_data_frame(df)
