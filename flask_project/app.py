@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import pandas as pd
 import os
 
-app = Flask(__name__,template_folder='template')
+app = Flask(__name__, template_folder='template')
 
 # Directory where the CSV files are located
 CSV_DIRECTORY = "C:/Users/nandk/Documents/Project Documentation/Financial-AI/src/data/processed_data/"
@@ -43,16 +43,18 @@ def count_sentiment(stock_data):
     positive_sentiments = 0
     negative_sentiments = 0
 
-    # Loop through the articles
-    for article in stock_data:
-        sentiment = article['Sentiment']
-        total_sentiments += 1  # Increment total sentiment count
-        if sentiment == 'POSITIVE':
-            positive_sentiments += 1
-        elif sentiment == 'NEGATIVE':
-            negative_sentiments += 1
+    # Check if stock data is not None before counting sentiments
+    if stock_data:
+        # Loop through the articles
+        for article in stock_data:
+            sentiment = article['Sentiment']
+            total_sentiments += 1  # Increment total sentiment count
+            if sentiment == 'POSITIVE':
+                positive_sentiments += 1
+            elif sentiment == 'NEGATIVE':
+                negative_sentiments += 1
 
-    return total_sentiments,positive_sentiments,negative_sentiments
+    return total_sentiments, positive_sentiments, negative_sentiments
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -64,13 +66,18 @@ def index():
     negative_sentiments = 0
 
     if request.method == 'POST':
-
         stock_name = request.form.get('stock_name')  # Get the stock name from the form
 
         if stock_name:
             stock_data = get_stock_data(stock_name)  # Get stock data if name is provided
-            print(stock_data)
-            total_sentiments,positive_sentiments,negative_sentiments=count_sentiment(stock_data)
+
+            if stock_data:
+                total_sentiments, positive_sentiments, negative_sentiments = count_sentiment(stock_data)
+            else:
+                # If no stock data is found, set sentiments to "NA"
+                total_sentiments = "NA"
+                positive_sentiments = "NA"
+                negative_sentiments = "NA"
     
     return render_template('index.html', stock_name=stock_name, stock_data=stock_data, TOTAL=total_sentiments, POSITIVE=positive_sentiments, NEGATIVE=negative_sentiments)
 

@@ -74,10 +74,16 @@
         .no-results {
             text-align: center;
             color: red;
+            font-size: 18px;
+            margin-top: 20px;
         }
 
         .gauge-container {
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
         .gauge-container h3 {
@@ -137,12 +143,7 @@
         </tbody>
     </table>
 
-    <!-- Add Gauge Section
-    <div class="gauge-container">
-        <h3>Sentiment Summary</h3>
-        <canvas id="sentimentGauge" width="400" height="200"></canvas>
-    </div> -->
-
+    <!-- Add Gauge Section -->
     <div class="gauge-container">
         <h3>Summary</h3>
         <canvas id="gaugeChart"></canvas>
@@ -177,8 +178,8 @@
         document.getElementById('buyCount').textContent = sentimentData.buy;
     
         // Calculate gauge value
-        const total = sentimentData.sell + sentimentData.neutral + sentimentData.buy;
-        const buyRatio = (sentimentData.buy / total) * 100;
+        const total = parseInt(sentimentData.sell) + parseInt(sentimentData.neutral) + parseInt(sentimentData.buy);
+        const buyRatio = (parseInt(sentimentData.buy) / total) * 100;
     
         // Update gauge label
         let gaugeLabel = 'Buy';
@@ -221,7 +222,7 @@
     </script>    
 
 {% elif stock_name %}
-    <p class="no-results">No articles found for "{{ stock_name }}"</p>
+    <p class="no-results">NO NEWS for "{{ stock_name }}"</p>
 {% endif %}
 
 </body>
