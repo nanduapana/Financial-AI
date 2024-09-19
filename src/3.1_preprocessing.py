@@ -11,6 +11,7 @@ import re
 import nltk
 from nltk.corpus import stopwords  # Import stopwords for removal
 from nltk.tokenize import word_tokenize  # Import for tokenization
+from datetime import datetime
 
 # To download necessary NLTK data
 nltk.download('stopwords')
@@ -74,19 +75,26 @@ def preprocess_text(text):
 
     return text
 
+# Get today's date in 'YYYY-MM-DD' format
+today_date = datetime.now().strftime('%Y-%m-%d')
+
+# Construct the filename with today's date
+input_file_name = f'content_data_{today_date}.csv'
+input_file_path = os.path.join(r'C:\Users\nandk\Documents\Project Documentation\Financial-AI\src\data\raw', input_file_name)
+
 # Data directory path
 data_dir = r'C:\Users\nandk\Documents\Project Documentation\Financial-AI\src\data'
 
-# To get all CSV files in the raw data folder
-raw_data_folder = os.path.join(data_dir, "raw")
-raw_csv_file = [f for f in os.listdir(raw_data_folder) if f.endswith(".csv") and f.startswith("content_data_")]
-data_path = os.path.join(raw_data_folder, raw_csv_file[0] )
+# # To get all CSV files in the raw data folder
+# raw_data_folder = os.path.join(data_dir, "raw")
+# raw_csv_file = [f for f in os.listdir(raw_data_folder) if f.endswith(".csv") and f.startswith("content_data_")]
+# data_path = os.path.join(raw_data_folder, raw_csv_file[0] )
 
 # Create the processed_data folder if it doesn't exist
 processed_data_folder = os.path.join(data_dir, "processed_data")
 os.makedirs(processed_data_folder, exist_ok=True)  # Create processed_data folder if needed
 
-output_path = os.path.join(processed_data_folder, f"pd_{raw_csv_file[0]}")
+output_path = os.path.join(processed_data_folder, f"pd_{input_file_name}")
 
-df = preprocess_data(data_path, output_path)
+df = preprocess_data(input_file_path, output_path)
 print(f"Processed data saved to: {output_path}")

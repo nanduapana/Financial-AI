@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 import pandas as pd
 import os
+from datetime import datetime
 
 app = Flask(__name__, template_folder='template')
 
@@ -8,23 +9,29 @@ app = Flask(__name__, template_folder='template')
 CSV_DIRECTORY = "C:/Users/nandk/Documents/Project Documentation/Financial-AI/src/data/processed_data/"
 
 # Function to find the latest CSV file
-def get_latest_csv(directory):
-    csv_files = [f for f in os.listdir(directory) if f.endswith('.csv')]
+# def get_latest_csv(directory):
+#     csv_files = [f for f in os.listdir(directory) if f.endswith('.csv')]
 
-    if not csv_files:
-        raise FileNotFoundError("No CSV files found in the directory.")
+#     if not csv_files:
+#         raise FileNotFoundError("No CSV files found in the directory.")
     
-    # Sort the files by name (assuming the file name contains a date like '2024-09-12')
-    csv_files.sort(reverse=True)
-    return os.path.join(directory, csv_files[0])
+#     # Sort the files by name (assuming the file name contains a date like '2024-09-12')
+#     csv_files.sort(reverse=True)
+#     return os.path.join(directory, csv_files[0])
+
+# Get today's date in 'YYYY-MM-DD' format
+today_date = datetime.now().strftime('%Y-%m-%d')
+
+# Construct the filename with today's date
+input_file_name = f'pd_content_data_{today_date}.csv'
+input_file_path = os.path.join(r'C:\Users\nandk\Documents\Project Documentation\Financial-AI\src\data\processed_data', input_file_name)
 
 # Function to get matching data based on stock name
 def get_stock_data(stock_name):
-    latest_csv_file = get_latest_csv(CSV_DIRECTORY)
-    
+
     # Read the CSV file
     try:
-        df = pd.read_csv(latest_csv_file)
+        df = pd.read_csv(input_file_path)
     except Exception as e:
         return f"Error reading the CSV file: {e}"
 

@@ -1,10 +1,18 @@
 import os
 import pandas as pd
 from transformers import pipeline, AutoTokenizer
+from datetime import datetime
 
-# Load the CSV file
-csv_path = "C:/Users/nandk/Documents/Project Documentation/Financial-AI/src/data/processed_data/pd_content_data_2024-09-12.csv"
-df = pd.read_csv(csv_path)
+# Get today's date in 'YYYY-MM-DD' format
+today_date = datetime.now().strftime('%Y-%m-%d')
+
+# Construct the filename with today's date
+input_file_name = f'pd_content_data_{today_date}.csv'
+input_file_path = os.path.join(r'C:\Users\nandk\Documents\Project Documentation\Financial-AI\src\data\processed_data', input_file_name)
+
+# # Load the CSV file
+# csv_path = "C:/Users/nandk/Documents/Project Documentation/Financial-AI/src/data/processed_data/pd_content_data_2024-09-12.csv"
+df = pd.read_csv(input_file_path)
 
 # Initialize sentiment analysis model (siebert/sentiment-roberta-large-english)
 sentiment_pipeline = pipeline("sentiment-analysis", model="siebert/sentiment-roberta-large-english", max_length=512, truncation=True)
@@ -41,7 +49,7 @@ df['Sentiment'] = df['content'].apply(analyze_sentiment)
 df['Summary'] = df['content'].apply(summarize_text)
 
 # Save the result back to the CSV
-output_csv_path = "C:/Users/nandk/Documents/Project Documentation/Financial-AI/src/data/processed_data/pd_content_data_2024-09-12_updated.csv"
-df.to_csv(output_csv_path, index=False)
+# output_csv_path = "C:/Users/nandk/Documents/Project Documentation/Financial-AI/src/data/processed_data/pd_content_data_2024-09-12_updated.csv"
+df.to_csv(input_file_path , index=False)
 
-print(f"Sentiment analysis and summarization complete. Updated CSV saved to {output_csv_path}.")
+print(f"Sentiment analysis and summarization complete. Updated CSV saved to {input_file_path}.")
