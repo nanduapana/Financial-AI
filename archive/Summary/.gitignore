@@ -1,0 +1,4 @@
+"Financial-AI" 
+.venv
+.env
+__pycache__

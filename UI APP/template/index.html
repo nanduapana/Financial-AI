@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Based Stock Predictor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            padding: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #007BFF;
+        }
+
+        form {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .result-table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        .result-table th, .result-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        .result-table th {
+            background-color: #007BFF;
+            color: white;
+            text-align: left;
+        }
+
+        .result-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .result-table tr:hover {
+            background-color: #ddd;
+        }
+
+        .no-results {
+            text-align: center;
+            color: red;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .gauge-container {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gauge-container h3 {
+            margin-bottom: 10px;
+            font-size: 30px;
+            font-weight: normal;
+        }
+
+        .sentiment-counts {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .sentiment-counts div {
+            text-align: center;
+        }
+
+        .sentiment-counts div span {
+            display: block;
+            font-size: 38px;
+            font-weight: bold;
+        }
+
+        @keyframes progress {
+            0% { --percentage: 0; }
+            100% { --percentage: var(--value); }
+        }
+
+        @property --percentage {
+            syntax: '<number>';
+            inherits: true;
+            initial-value: 0;
+        }
+
+        [role="progressbar"] {
+            --percentage: var(--value);
+            --primary: rgb(45 187 25 / 94%);
+            --secondary: red;
+            --size: 300px;
+            animation: progress 2s 0.5s forwards;
+            width: var(--size);
+            aspect-ratio: 2 / 1;
+            border-radius: 50% / 100% 100% 0 0;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        [role="progressbar"]::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: conic-gradient(from 0.75turn at 50% 100%, var(--primary) calc(var(--percentage) * 1% / 2), var(--secondary) calc(var(--percentage) * 1% / 2 + 0.1%));
+            mask: radial-gradient(at 50% 100%, white 55%, transparent 55.5%);
+            mask-mode: alpha;
+            -webkit-mask: radial-gradient(at 50% 100%, #0000 55%, #000 55.5%);
+            -webkit-mask-mode: alpha;
+        }
+
+        [role="progressbar"]::after {
+            counter-reset: percentage var(--value);
+            content: counter(percentage) '%';
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: calc(var(--size) / 5);
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+
+<h1>News Based Stock Predictor</h1>
+
+<form method="POST">
+    <input type="text" name="stock_name" placeholder="Enter Stock/Company Name" required>
+    <button type="submit"><i class="fas fa-search"></i> Search</button>
+</form>
+
+<!-- Replace this part with backend logic to display the table if stock_data is available -->
+{% if stock_data %}
+    <table class="result-table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Sentiment</th>
+                <th>Summary</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for row in stock_data %}
+            <tr>
+                <td>{{ row['date'] }}</td>
+                <td>{{ row['Sentiment'] }}</td>
+                <td>{{ row['Summary'] }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <!-- Gauge Summary Section -->
+    <div class="gauge-container">
+        <h3>Sentiment Summary</h3>
+        <div role="progressbar" aria-valuemin="0" aria-valuemax="100" style="--value: 0"></div>
+        <h4 id="gaugeLabel" style="margin-top: -20px --value: 0; font-size: 30px ;">Loading...</h4>
+        <div class="sentiment-counts" style="margin-top: -10px;">
+            <div style="margin-right: 50px;">
+                <span id="sellCount">{{ NEGATIVE }}</span>
+                <p>Sell</p>
+            </div>
+            <div>
+                <span id="neutralCount">{{ NEUTRAL}}</span>
+                <p>Neutral</p>
+            </div>
+            <div style="margin-left: 50px;">
+                <span id="buyCount">{{ POSITIVE }}</span>
+                <p>Buy</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    // Assuming these values are passed correctly from the server-side
+    const sentimentData = {
+        sell: parseInt('{{ NEGATIVE }}') || 0,  // Ensuring no NaN values
+        neutral: parseInt('{{ NEUTRAL }}') || 0,
+        buy: parseInt('{{ POSITIVE }}') || 0,
+        total: parseInt('{{ TOTAL }}') || 0
+    };
+
+    // Calculate the total and the buy ratio (percentage of positive sentiment)
+    const total = sentimentData.sell + sentimentData.neutral + sentimentData.buy;
+    const buyRatio = total === 0 ? 0 : (sentimentData.buy / total) * 100;  // Handling division by zero
+    console.log(buyRatio);
+    // Update the circular gauge using the calculated value
+    document.querySelector('[role="progressbar"]').style.setProperty('--value', parseInt(buyRatio));
+
+    // Update the label inside the gauge (Buy, Neutral, Sell)
+    let gaugeLabel = 'Buy';
+    if (buyRatio > 50) {
+        gaugeLabel = 'Buy';
+    } else if (buyRatio > 25) {
+        gaugeLabel = 'Neutral';
+    } else {
+        gaugeLabel = 'Sell';
+    }
+    document.getElementById('gaugeLabel').textContent = `${gaugeLabel}`;
+
+    // Set sentiment counts (optional if needed for manual update)
+    document.getElementById('sellCount').textContent = sentimentData.sell;
+    document.getElementById('neutralCount').textContent = sentimentData.neutral;
+    document.getElementById('buyCount').textContent = sentimentData.buy;
+    </script>
+
+{% elif stock_name %}
+    <p class="no-results">NO NEWS for "{{ stock_name }}"</p>
+{% endif %}
+
+</body>
+</html>

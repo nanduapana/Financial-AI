@@ -1,0 +1,236 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.summary-container{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.center-point{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 137px;
+    left: 137px;
+    z-index: 10;
+}
+
+.summary-scale{
+    width: 8px;
+    height: 280px;
+    background-color: black;
+    position: absolute;
+    left: 143px;
+    top: 7px;
+    transform: rotate(-90deg);
+}
+
+.summary-scale-1{
+    transform: rotate(-90deg);
+}
+.summary-scale-2{
+    transform: rotate(-80deg);
+}
+.summary-scale-3{
+    transform: rotate(-70deg);
+}
+.summary-scale-4{
+    transform: rotate(-60deg);
+}
+.summary-scale-5{
+    transform: rotate(-50deg);
+}
+.summary-scale-6{
+    transform: rotate(-40deg);
+}
+.summary-scale-7{
+    transform: rotate(-30deg);
+}
+.summary-scale-8{
+    transform: rotate(-20deg);
+}
+.summary-scale-9{
+    transform: rotate(-10deg);
+}
+.summary-scale-10{
+    transform: rotate(0deg);
+}
+.summary-scale-11{
+    transform: rotate(10deg);
+}
+.summary-scale-12{
+    transform: rotate(20deg);
+}
+.summary-scale-13{
+    transform: rotate(30deg);
+}
+.summary-scale-14{
+    transform: rotate(40deg);
+}
+.summary-scale-15{
+    transform: rotate(50deg);
+}
+.summary-scale-16{
+    transform: rotate(60deg);
+}
+.summary-scale-17{
+    transform: rotate(70deg);
+}
+.summary-scale-18{
+    transform: rotate(80deg);
+}
+.summary-scale-19{
+    transform: rotate(90deg);
+}
+
+.summary-center-hide{
+    width: 250px;
+    height: 250px;
+    background-color:white;
+    border-radius: 50%;
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    z-index: 9;
+}
+.summary-bottom-hide{
+    width: 320px;
+    height: 250px;
+    background-color:white;
+    position: absolute;
+    top: 160px;
+    left: -14px;
+    z-index: 11;
+    border-top: 1px solid;
+}
+
+.arrow-container{
+    width: 160px;
+    height: 160px;
+    background-color: red transparent;
+    position: absolute;
+    z-index: 12;
+    top: 67px;
+    left: 67px;
+}
+
+.arrow-wrapper{
+    width: 160px;
+    height: 160px;
+    background-color: red transparent;
+    position: relative;
+    transition: all 0.4s;
+}
+
+.arrow{
+    width: 140px;
+    height: 4px;
+    background-color: purple;
+    position: absolute;
+    top: 78px;
+    left: -30px;
+}
+
+.step-0{
+    transform: rotate(0deg);
+}
+
+.step-10{
+    transform: rotate(10deg);
+}
+
+.step-20{
+    transform: rotate(20deg);
+}
+
+.step-30{
+    transform: rotate(30deg);
+}
+
+.step-40{
+    transform: rotate(40deg);
+}
+
+.step-50{
+    transform: rotate(50deg);
+}
+
+.step-60{
+    transform: rotate(60deg);
+}
+.step-70{
+    transform: rotate(70deg);
+}
+
+.step-80{
+    transform: rotate(80deg);
+}
+
+.step-90{
+    transform: rotate(90deg);
+}
+
+.step-100{
+    transform: rotate(100deg);
+}
+
+.step-110{
+    transform: rotate(110deg);
+}
+
+.step-120{
+    transform: rotate(120deg);
+}
+.step-130{
+    transform: rotate(130deg);
+}
+
+.step-140{
+    transform: rotate(140deg);
+}
+
+.step-150{
+    transform: rotate(150deg);
+}
+
+.step-160{
+    transform: rotate(160deg);
+}
+
+.step-170{
+    transform: rotate(170deg);
+}
+
+.step-180{
+    transform: rotate(180deg);
+}
+
+.indicators{
+    margin-top: 120px;
+    text-align: center;
+
+}
+
+.indicators buttons-left{
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: white;
+}
+
