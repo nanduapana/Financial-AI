@@ -1,3 +1,10 @@
+"""
+Author: Nandkumar Patil
+Project: Financial-AI Project
+Description: This script does sentiment analysis and text summarization.
+
+"""
+
 import os
 import pandas as pd
 from transformers import pipeline, AutoTokenizer

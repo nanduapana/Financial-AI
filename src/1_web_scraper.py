@@ -14,7 +14,7 @@ from datetime import datetime, timedelta
 from transformers import pipeline
 
 BASE_URL = 'https://www.moneycontrol.com'
-DAYS = 1
+DAYS = 3
 OUTPUT_DIR = r'C:\Users\nandk\Documents\Project Documentation\Financial-AI\src\data\raw'
 
 def extract_header_and_url(anchors, category="general"):

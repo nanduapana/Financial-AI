@@ -1,0 +1,762 @@
+Symbol,Identifier,Company,ISIN,Sector,Processed_Company
+M&M,M&MEQN,Mahindra & Mahindra Limited,INE101A01026,NIFTY 50,mahindra mahindra
+JSWSTEEL,JSWSTEELEQN,JSW Steel Limited,INE019A04016,NIFTY 50,jsw steel
+COALINDIA,COALINDIAEQN,Coal India Limited,INE522F01014,NIFTY 50,coal india
+ADANIPORTS,ADANIPORTSEQN,Adani Ports and Special Economic Zone Limited,INE742F01042,NIFTY 50,adani ports and special economic zone
+EICHERMOT,EICHERMOTEQN,Eicher Motors Limited,INE066A01021,NIFTY 50,eicher motors
+MARUTI,MARUTIEQN,Maruti Suzuki India Limited,INE585B01010,NIFTY 50,maruti suzuki india
+BHARTIARTL,BHARTIARTLEQN,Bharti Airtel Limited,INE397D01024,NIFTY 50,bharti airtel
+ADANIENT,ADANIENTEQN,Adani Enterprises Limited,INE423A01024,NIFTY 50,adani enterprises
+LT,LTEQN,Larsen & Toubro Limited,INE018A01030,NIFTY 50,larsen toubro
+TATASTEEL,TATASTEELEQN,Tata Steel Limited,IN9081A01010,NIFTY 50,tata steel
+NESTLEIND,NESTLEINDEQN,Nestle India Limited,INE239A01024,NIFTY 50,nestle india
+HINDUNILVR,HINDUNILVREQN,Hindustan Unilever Limited,INE030A01027,NIFTY 50,hindustan unilever
+HDFCBANK,HDFCBANKEQN,HDFC Bank Limited,INE040A13013,NIFTY 50,hdfc bank
+ICICIBANK,ICICIBANKEQN,ICICI Bank Limited,INE090A01021,NIFTY 50,icici bank
+TECHM,TECHMEQN,Tech Mahindra Limited,INE669C01036,NIFTY 50,tech mahindra
+HINDALCO,HINDALCOEQN,Hindalco Industries Limited,IN9038A01010,NIFTY 50,hindalco industries
+ITC,ITCEQN,ITC Limited,INE154A01025,NIFTY 50,itc
+KOTAKBANK,KOTAKBANKEQN,Kotak Mahindra Bank Limited,INE237A01028,NIFTY 50,kotak mahindra bank
+POWERGRID,POWERGRIDEQN,Power Grid Corporation of India Limited,INE752E01010,NIFTY 50,power grid corporation of india
+RELIANCE,RELIANCEEQN,Reliance Industries Limited,INE002A01018,NIFTY 50,reliance industries
+HCLTECH,HCLTECHEQN,HCL Technologies Limited,INE860A01027,NIFTY 50,hcl technologies
+ULTRACEMCO,ULTRACEMCOEQN,UltraTech Cement Limited,INE481G01011,NIFTY 50,ultratech cement
+BRITANNIA,BRITANNIAEQN,Britannia Industries Limited,INE216A07052,NIFTY 50,britannia industries
+BPCL,BPCLEQN,Bharat Petroleum Corporation Limited,INE029A01011,NIFTY 50,bharat petroleum corporation
+SBILIFE,SBILIFEEQN,SBI Life Insurance Company Limited,INE123W01016,NIFTY 50,sbi life
+DIVISLAB,DIVISLABEQN,Divi's Laboratories Limited,INE361B01024,NIFTY 50,divis laboratories
+BAJAJFINSV,BAJAJFINSVEQN,Bajaj Finserv Limited,INE918I01026,NIFTY 50,bajaj finserv
+LTIM,LTIMEQN,LTIMindtree Limited,INE214T01019,NIFTY 50,ltimindtree
+HDFCLIFE,HDFCLIFEEQN,HDFC Life Insurance Company Limited,INE795G01014,NIFTY 50,hdfc life
+APOLLOHOSP,APOLLOHOSPEQN,Apollo Hospitals Enterprise Limited,INE437A01024,NIFTY 50,apollo hospitals enterprise
+INFY,INFYEQN,Infosys Limited,INE009A01021,NIFTY 50,infosys
+DRREDDY,DRREDDYEQN,Dr. Reddy's Laboratories Limited,INE089A08051,NIFTY 50,dr reddys laboratories
+ASIANPAINT,ASIANPAINTEQN,Asian Paints Limited,INE021A01026,NIFTY 50,asian paints
+SUNPHARMA,SUNPHARMAEQN,Sun Pharmaceutical Industries Limited,INE044A01036,NIFTY 50,sun pharmaceutical industries
+TATAMOTORS,TATAMOTORSEQN,Tata Motors Limited,INE155A01022,NIFTY 50,tata motors
+TITAN,TITANEQN,Titan Company Limited,INE280A01028,NIFTY 50,titan
+TATACONSUM,TATACONSUMEQN,TATA CONSUMER PRODUCTS LIMITED,INE192A01025,NIFTY 50,tata consumer products
+WIPRO,WIPROEQN,Wipro Limited,INE075A01022,NIFTY 50,wipro
+SHRIRAMFIN,SHRIRAMFINEQN,Shriram Finance Limited,INE721A07GU5,NIFTY 50,shriram finance
+HEROMOTOCO,HEROMOTOCOEQN,Hero MotoCorp Limited,INE158A01026,NIFTY 50,hero motocorp
+BAJAJ-AUTO,BAJAJ-AUTOEQN,Bajaj Auto Limited,INE917I01010,NIFTY 50,bajaj auto
+ONGC,ONGCEQN,Oil & Natural Gas Corporation Limited,INE213A01029,NIFTY 50,oil natural gas corporation
+BAJFINANCE,BAJFINANCEEQN,Bajaj Finance Limited,INE296A13011,NIFTY 50,bajaj finance
+CIPLA,CIPLAEQN,Cipla Limited,INE059A01026,NIFTY 50,cipla
+INDUSINDBK,INDUSINDBKEQN,IndusInd Bank Limited,INE095A01012,NIFTY 50,indusind bank
+SBIN,SBINEQN,State Bank of India,INE062A08041,NIFTY 50,state bank of india
+NTPC,NTPCEQN,NTPC Limited,INE733E07JE0,NIFTY 50,ntpc
+AXISBANK,AXISBANKEQN,Axis Bank Limited,INE238A01034,NIFTY 50,axis bank
+TCS,TCSEQN,Tata Consultancy Services Limited,INE467B01029,NIFTY 50,tata consultancy services
+GRASIM,GRASIMEQN,Grasim Industries Limited,INE047A01021,NIFTY 50,grasim industries
+IRFC,IRFCEQN,Indian Railway Finance Corporation Limited,INE053F07678,NIFTY NEXT 50,indian railway finance corporation
+ZOMATO,ZOMATOEQN,Zomato Limited,INE758T01015,NIFTY NEXT 50,zomato
+ADANIENSOL,ADANIENSOLEQN,Adani Energy Solutions Limited,INE931S01010,NIFTY NEXT 50,adani energy solutions
+NAUKRI,NAUKRIEQN,Info Edge (India) Limited,INE663F01024,NIFTY NEXT 50,info edge india
+TORNTPHARM,TORNTPHARMEQN,Torrent Pharmaceuticals Limited,INE685A01028,NIFTY NEXT 50,torrent pharmaceuticals
+DLF,DLFEQN,DLF Limited,INE271C01023,NIFTY NEXT 50,dlf
+UNITDSPR,UNITDSPREQN,United Spirits Limited,INE854D01024,NIFTY NEXT 50,united spirits
+ICICIGI,ICICIGIEQN,ICICI Lombard General Insurance Company Limited,INE765G01017,NIFTY NEXT 50,icici lombard
+BOSCHLTD,BOSCHLTDEQN,Bosch Limited,INE323A01026,NIFTY NEXT 50,bosch
+RECLTD,RECLTDEQN,REC Limited,INE020B07IC4,NIFTY NEXT 50,rec
+BAJAJHLDNG,BAJAJHLDNGEQN,Bajaj Holdings & Investment Limited,INE118A01012,NIFTY NEXT 50,bajaj holdings investment
+ATGL,ATGLEQN,Adani Total Gas Limited,INE399L01023,NIFTY NEXT 50,adani total gas
+HAL,HALEQN,Hindustan Aeronautics Limited,INE066F01020,NIFTY NEXT 50,hindustan aeronautics
+ABB,ABBEQN,ABB India Limited,INE117A01022,NIFTY NEXT 50,abb india
+MARICO,MARICOEQN,Marico Limited,INE196A01026,NIFTY NEXT 50,marico
+JIOFIN,JIOFINEQN,Jio Financial Services Limited,INE758E01017,NIFTY NEXT 50,jio financial services
+HAVELLS,HAVELLSEQN,Havells India Limited,INE176B01034,NIFTY NEXT 50,havells india
+BEL,BELEQN,Bharat Electronics Limited,INE263A01024,NIFTY NEXT 50,bharat electronics
+ADANIGREEN,ADANIGREENEQN,Adani Green Energy Limited,INE364U01010,NIFTY NEXT 50,adani green energy
+TRENT,TRENTEQN,Trent Limited,INE849A13017,NIFTY NEXT 50,trent
+SRF,SRFEQN,SRF Limited,INE647A01010,NIFTY NEXT 50,srf
+TVSMOTOR,TVSMOTOREQN,TVS Motor Company Limited,INE494B01023,NIFTY NEXT 50,tvs motor
+PIDILITIND,PIDILITINDEQN,Pidilite Industries Limited,INE318A01026,NIFTY NEXT 50,pidilite industries
+AMBUJACEM,AMBUJACEMEQN,Ambuja Cements Limited,INE079A01024,NIFTY NEXT 50,ambuja cements
+VEDL,VEDLEQN,Vedanta Limited,INE205A04011,NIFTY NEXT 50,vedanta
+LICI,LICIEQN,Life Insurance Corporation Of India,INE0J1Y01017,NIFTY NEXT 50,life corporation of india
+SIEMENS,SIEMENSEQN,Siemens Limited,INE003A01024,NIFTY NEXT 50,siemens
+JINDALSTEL,JINDALSTELEQN,Jindal Steel & Power Limited,INE749A01030,NIFTY NEXT 50,jindal steel power
+ADANIPOWER,ADANIPOWEREQN,Adani Power Limited,INE814H01011,NIFTY NEXT 50,adani power
+TATAPOWER,TATAPOWEREQN,Tata Power Company Limited,INE245A01021,NIFTY NEXT 50,tata power
+IRCTC,IRCTCEQN,Indian Railway Catering And Tourism Corporation Limited,INE335Y01020,NIFTY NEXT 50,indian railway catering and tourism corporation
+ICICIPRULI,ICICIPRULIEQN,ICICI Prudential Life Insurance Company Limited,INE726G01019,NIFTY NEXT 50,icici prudential life
+PFC,PFCEQN,Power Finance Corporation Limited,INE134E07422,NIFTY NEXT 50,power finance corporation
+CANBK,CANBKEQN,Canara Bank,INE476A01022,NIFTY NEXT 50,canara bank
+BERGEPAINT,BERGEPAINTEQN,Berger Paints (I) Limited,INE463A01038,NIFTY NEXT 50,berger paints i
+PNB,PNBEQN,Punjab National Bank,INE160A01022,NIFTY NEXT 50,punjab national bank
+BANKBARODA,BANKBARODAEQN,Bank of Baroda,INE028A01039,NIFTY NEXT 50,bank of baroda
+IOC,IOCEQN,Indian Oil Corporation Limited,INE242A01010,NIFTY NEXT 50,indian oil corporation
+SHREECEM,SHREECEMEQN,SHREE CEMENT LIMITED,INE070A01015,NIFTY NEXT 50,shree cement
+GAIL,GAILEQN,GAIL (India) Limited,INE129A01019,NIFTY NEXT 50,gail india
+GODREJCP,GODREJCPEQN,Godrej Consumer Products Limited,INE102D01028,NIFTY NEXT 50,godrej consumer products
+COLPAL,COLPALEQN,Colgate Palmolive (India) Limited,INE259A01022,NIFTY NEXT 50,colgate palmolive india
+DABUR,DABUREQN,Dabur India Limited,INE016A01026,NIFTY NEXT 50,dabur india
+ZYDUSLIFE,ZYDUSLIFEEQN,Zydus Lifesciences Limited,INE010B01027,NIFTY NEXT 50,zydus lifesciences
+CHOLAFIN,CHOLAFINEQN,Cholamandalam Investment and Finance Company Limited,INE121A01024,NIFTY NEXT 50,cholamandalam investment and finance
+VBL,VBLEQN,Varun Beverages Limited,INE200M01039,NIFTY NEXT 50,varun beverages
+SBICARD,SBICARDEQN,SBI Cards and Payment Services Limited,INE018E01016,NIFTY NEXT 50,sbi cards and payment services
+MOTHERSON,MOTHERSONEQN,Samvardhana Motherson International Limited,INE775A01035,NIFTY NEXT 50,samvardhana motherson international
+INDIGO,INDIGOEQN,InterGlobe Aviation Limited,INE646L01027,NIFTY NEXT 50,interglobe aviation
+DMART,DMARTEQN,Avenue Supermarts Limited,INE192R01011,NIFTY NEXT 50,avenue supermarts
+ESCORTS,ESCORTSEQN,Escorts Kubota Limited,INE042A01014,NIFTY MIDCAP 50,escorts kubota
+MAXHEALTH,MAXHEALTHEQN,Max Healthcare Institute Limited,INE027H01010,NIFTY MIDCAP 50,max healthcare institute
+OFSS,OFSSEQN,Oracle Financial Services Software Limited,INE881D01027,NIFTY MIDCAP 50,oracle financial services software
+BHEL,BHELEQN,Bharat Heavy Electricals Limited,INE257A01026,NIFTY MIDCAP 50,bharat heavy electricals
+TIINDIA,TIINDIAEQN,Tube Investments of India Limited,INE974X01010,NIFTY MIDCAP 50,tube investments of india
+PERSISTENT,PERSISTENTEQN,Persistent Systems Limited,INE262H01021,NIFTY MIDCAP 50,persistent systems
+PIIND,PIINDEQN,PI Industries Limited,INE603J01030,NIFTY MIDCAP 50,pi industries
+INDHOTEL,INDHOTELEQN,The Indian Hotels Company Limited,INE053A08081,NIFTY MIDCAP 50,the indian hotels
+MPHASIS,MPHASISEQN,MphasiS Limited,INE356A01018,NIFTY MIDCAP 50,mphasis
+DIXON,DIXONEQN,Dixon Technologies (India) Limited,INE935N01020,NIFTY MIDCAP 50,dixon technologies india
+SUZLON,SUZLONEQN,Suzlon Energy Limited,INE040H01021,NIFTY MIDCAP 50,suzlon energy
+JUBLFOOD,JUBLFOODEQN,Jubilant Foodworks Limited,INE797F01020,NIFTY MIDCAP 50,jubilant foodworks
+LTF,LTFEQN,L&T Finance Limited,INE498L01015,NIFTY MIDCAP 50,lt finance
+NMDC,NMDCEQN,NMDC Limited,INE584A01023,NIFTY MIDCAP 50,nmdc
+POLYCAB,POLYCABEQN,Polycab India Limited,INE455K01017,NIFTY MIDCAP 50,polycab india
+DALBHARAT,DALBHARATEQN,Dalmia Bharat Limited,INE00R701025,NIFTY MIDCAP 50,dalmia bharat
+CUMMINSIND,CUMMINSINDEQN,Cummins India Limited,INE298A01020,NIFTY MIDCAP 50,cummins india
+ASTRAL,ASTRALEQN,Astral Limited,INE006I01046,NIFTY MIDCAP 50,astral
+GMRINFRA,GMRINFRAEQN,GMR Airports Infrastructure Limited,INE776C01039,NIFTY MIDCAP 50,gmr airports infrastructure
+IDEA,IDEAEQN,Vodafone Idea Limited,INE669E01016,NIFTY MIDCAP 50,vodafone idea
+PETRONET,PETRONETEQN,Petronet LNG Limited,INE347G01014,NIFTY MIDCAP 50,petronet lng
+INDUSTOWER,INDUSTOWEREQN,Indus Towers Limited,INE121J01017,NIFTY MIDCAP 50,indus towers
+OBEROIRLTY,OBEROIRLTYEQN,Oberoi Realty Limited,INE093I01010,NIFTY MIDCAP 50,oberoi realty
+GODREJPROP,GODREJPROPEQN,Godrej Properties Limited,INE484J01027,NIFTY MIDCAP 50,godrej properties
+SAIL,SAILEQN,Steel Authority of India Limited,INE114A01011,NIFTY MIDCAP 50,steel authority of india
+BHARATFORG,BHARATFORGEQN,Bharat Forge Limited,INE465A01025,NIFTY MIDCAP 50,bharat forge
+YESBANK,YESBANKEQN,Yes Bank Limited,INE528G01035,NIFTY MIDCAP 50,yes bank
+PAGEIND,PAGEINDEQN,Page Industries Limited,INE761H01022,NIFTY MIDCAP 50,page industries
+LTTS,LTTSEQN,L&T Technology Services Limited,INE010V01017,NIFTY MIDCAP 50,lt technology services
+COFORGE,COFORGEEQN,Coforge Limited,INE591G01017,NIFTY MIDCAP 50,coforge
+HDFCAMC,HDFCAMCEQN,HDFC Asset Management Company Limited,INE127D01025,NIFTY MIDCAP 50,hdfc asset management
+FEDERALBNK,FEDERALBNKEQN,The Federal Bank  Limited,INE171A01029,NIFTY MIDCAP 50,the federal bank
+BANDHANBNK,BANDHANBNKEQN,Bandhan Bank Limited,INE545U01014,NIFTY MIDCAP 50,bandhan bank
+HINDPETRO,HINDPETROEQN,Hindustan Petroleum Corporation Limited,INE094A01015,NIFTY MIDCAP 50,hindustan petroleum corporation
+ASHOKLEY,ASHOKLEYEQN,Ashok Leyland Limited,INE208A01029,NIFTY MIDCAP 50,ashok leyland
+MRF,MRFEQN,MRF Limited,INE883A01011,NIFTY MIDCAP 50,mrf
+UPL,UPLEQN,UPL Limited,INE628A03024,NIFTY MIDCAP 50,upl
+BALKRISIND,BALKRISINDEQN,Balkrishna Industries Limited,INE787D01026,NIFTY MIDCAP 50,balkrishna industries
+ACC,ACCEQN,ACC Limited,INE012A01025,NIFTY MIDCAP 50,acc
+ALKEM,ALKEMEQN,Alkem Laboratories Limited,INE540L01014,NIFTY MIDCAP 50,alkem laboratories
+ABCAPITAL,ABCAPITALEQN,Aditya Birla Capital Limited,INE674K01013,NIFTY MIDCAP 50,aditya birla capital
+M&MFIN,M&MFINEQN,Mahindra & Mahindra Financial Services Limited,INE774D08MG3,NIFTY MIDCAP 50,mahindra mahindra financial services
+IDFCFIRSTB,IDFCFIRSTBEQN,IDFC First Bank Limited,INE092T08CP8,NIFTY MIDCAP 50,idfc first bank
+TATACOMM,TATACOMMEQN,Tata Communications Limited,INE151A01013,NIFTY MIDCAP 50,tata communications
+MFSL,MFSLEQN,Max Financial Services Limited,INE180A01020,NIFTY MIDCAP 50,max financial services
+GUJGASLTD,GUJGASLTDEQN,Gujarat Gas Limited,INE844O01030,NIFTY MIDCAP 50,gujarat gas
+LUPIN,LUPINEQN,Lupin Limited,INE326A01037,NIFTY MIDCAP 50,lupin
+AUROPHARMA,AUROPHARMAEQN,Aurobindo Pharma Limited,INE406A01037,NIFTY MIDCAP 50,aurobindo pharma
+CONCOR,CONCOREQN,Container Corporation of India Limited,INE111A01025,NIFTY MIDCAP 50,container corporation of india
+AUBANK,AUBANKEQN,AU Small Finance Bank Limited,INE949L01017,NIFTY MIDCAP 50,au small finance bank
+MAZDOCK,MAZDOCKEQN,Mazagon Dock Shipbuilders Limited,INE249Z01012,NIFTY MIDCAP 100,mazagon dock shipbuilders
+BSE,BSEEQN,BSE Limited,INE118H01025,NIFTY MIDCAP 100,bse
+RVNL,RVNLEQN,Rail Vikas Nigam Limited,INE415G01027,NIFTY MIDCAP 100,rail vikas nigam
+JSWENERGY,JSWENERGYEQN,JSW Energy Limited,INE121E01018,NIFTY MIDCAP 100,jsw energy
+LODHA,LODHAEQN,Macrotech Developers Limited,INE670K01029,NIFTY MIDCAP 100,macrotech developers
+MANKIND,MANKINDEQN,Mankind Pharma Limited,INE634S01028,NIFTY MIDCAP 100,mankind pharma
+TORNTPOWER,TORNTPOWEREQN,Torrent Power Limited,INE813H01021,NIFTY MIDCAP 100,torrent power
+BDL,BDLEQN,Bharat Dynamics Limited,INE171Z01026,NIFTY MIDCAP 100,bharat dynamics
+TATATECH,TATATECHEQN,Tata Technologies Limited,INE142M01025,NIFTY MIDCAP 100,tata technologies
+TATAELXSI,TATAELXSIEQN,Tata Elxsi Limited,INE670A01012,NIFTY MIDCAP 100,tata elxsi
+JSWINFRA,JSWINFRAEQN,JSW Infrastructure Limited,INE880J01026,NIFTY MIDCAP 100,jsw infrastructure
+POONAWALLA,POONAWALLAEQN,Poonawalla Fincorp Limited,INE511C01022,NIFTY MIDCAP 100,poonawalla fincorp
+NYKAA,NYKAAEQN,FSN E-Commerce Ventures Limited,INE388Y01029,NIFTY MIDCAP 100,fsn ecommerce ventures
+MAHABANK,MAHABANKEQN,Bank of Maharashtra,INE457A01014,NIFTY MIDCAP 100,bank of maharashtra
+FORTIS,FORTISEQN,Fortis Healthcare Limited,INE061F01013,NIFTY MIDCAP 100,fortis healthcare
+UNIONBANK,UNIONBANKEQN,Union Bank of India,INE692A01016,NIFTY MIDCAP 100,union bank of india
+DEEPAKNTR,DEEPAKNTREQN,Deepak Nitrite Limited,INE288B01029,NIFTY MIDCAP 100,deepak nitrite
+SONACOMS,SONACOMSEQN,Sona BLW Precision Forgings Limited,INE073K01018,NIFTY MIDCAP 100,sona blw precision forgings
+POLICYBZR,POLICYBZREQN,PB Fintech Limited,INE417T01026,NIFTY MIDCAP 100,pb fintech
+PAYTM,PAYTMEQN,One 97 Communications Limited,INE982J01020,NIFTY MIDCAP 100,one 97 communications
+APLAPOLLO,APLAPOLLOEQN,APL Apollo Tubes Limited,INE702C01027,NIFTY MIDCAP 100,apl apollo tubes
+ZEEL,ZEELEQN,Zee Entertainment Enterprises Limited,INE256A04022,NIFTY MIDCAP 100,zee entertainment enterprises
+IDBI,IDBIEQN,IDBI Bank Limited,INE008A01015,NIFTY MIDCAP 100,idbi bank
+DELHIVERY,DELHIVERYEQN,Delhivery Limited,INE148O01028,NIFTY MIDCAP 100,delhivery
+SYNGENE,SYNGENEEQN,Syngene International Limited,INE398R01022,NIFTY MIDCAP 100,syngene international
+SJVN,SJVNEQN,SJVN Limited,INE002L01015,NIFTY MIDCAP 100,sjvn
+NHPC,NHPCEQN,NHPC Limited,INE848E07542,NIFTY MIDCAP 100,nhpc
+SUNTV,SUNTVEQN,Sun TV Network Limited,INE424H01027,NIFTY MIDCAP 100,sun tv network
+LICHSGFIN,LICHSGFINEQN,LIC Housing Finance Limited,INE115A01026,NIFTY MIDCAP 100,lic housing finance
+TATACHEM,TATACHEMEQN,Tata Chemicals Limited,INE344201012,NIFTY MIDCAP 100,tata chemicals
+BIOCON,BIOCONEQN,Biocon Limited,INE376G01013,NIFTY MIDCAP 100,biocon
+LALPATHLAB,LALPATHLABEQN,Dr. Lal Path Labs Ltd.,INE600L01024,NIFTY MIDCAP 100,dr lal path labs ltd
+KALYANKJIL,KALYANKJILEQN,Kalyan Jewellers India Limited,INE303R01014,NIFTY MIDCAP 100,kalyan jewellers india
+APOLLOTYRE,APOLLOTYREEQN,Apollo Tyres Limited,INE438A01022,NIFTY MIDCAP 100,apollo tyres
+PEL,PELEQN,Piramal Enterprises Limited,INE140A08SY3,NIFTY MIDCAP 100,piramal enterprises
+BANKINDIA,BANKINDIAEQN,Bank of India,INE084A01016,NIFTY MIDCAP 100,bank of india
+INDIANB,INDIANBEQN,Indian Bank,INE562A01011,NIFTY MIDCAP 100,indian bank
+SUPREMEIND,SUPREMEINDEQN,Supreme Industries Limited,INE195A01028,NIFTY MIDCAP 100,supreme industries
+FACT,FACTEQN,Fertilizers and Chemicals Travancore Limited,INE188A01015,NIFTY MIDCAP 100,fertilizers and chemicals travancore
+PATANJALI,PATANJALIEQN,Patanjali Foods Limited,INE619A01035,NIFTY MIDCAP 100,patanjali foods
+PRESTIGE,PRESTIGEEQN,Prestige Estates Projects Limited,INE811K01011,NIFTY MIDCAP 100,prestige estates projects
+GLAND,GLANDEQN,Gland Pharma Limited,INE068V01023,NIFTY MIDCAP 100,gland pharma
+CGPOWER,CGPOWEREQN,CG Power and Industrial Solutions Limited,INE067A01029,NIFTY MIDCAP 100,cg power and industrial solutions
+VOLTAS,VOLTASEQN,Voltas Limited,INE226A01021,NIFTY MIDCAP 100,voltas
+OIL,OILEQN,Oil India Limited,INE274J01014,NIFTY MIDCAP 100,oil india
+IPCALAB,IPCALABEQN,IPCA Laboratories Limited,INE571A01038,NIFTY MIDCAP 100,ipca laboratories
+LAURUSLABS,LAURUSLABSEQN,Laurus Labs Limited,INE947Q01028,NIFTY MIDCAP 100,laurus labs
+IGL,IGLEQN,Indraprastha Gas Limited,INE203G01027,NIFTY MIDCAP 100,indraprastha gas
+KPITTECH,KPITTECHEQN,KPIT Technologies Limited,INE04I401011,NIFTY MIDCAP 100,kpit technologies
+ABFRL,ABFRLEQN,Aditya Birla Fashion and Retail Limited,INE647O01011,NIFTY MIDCAP 100,aditya birla fashion and retail
+DEVYANI,DEVYANIEQN,Devyani International Limited,INE872J01023,NIFTY MIDCAP 150,devyani international
+FLUOROCHEM,FLUOROCHEMEQN,Gujarat Fluorochemicals Limited,INE09N301011,NIFTY MIDCAP 150,gujarat fluorochemicals
+UNOMINDA,UNOMINDAEQN,UNO Minda Limited,INE405E01023,NIFTY MIDCAP 150,uno minda
+LLOYDSME,LLOYDSMEEQN,Lloyds Metals And Energy Limited,INE281B01032,NIFTY MIDCAP 150,lloyds metals and energy
+JSL,JSLEQN,Jindal Stainless Limited,INE220G01021,NIFTY MIDCAP 150,jindal stainless
+KPRMILL,KPRMILLEQN,K.P.R. Mill Limited,INE930H01031,NIFTY MIDCAP 150,kpr mill
+HINDZINC,HINDZINCEQN,Hindustan Zinc Limited,INE267A01025,NIFTY MIDCAP 150,hindustan zinc
+GICRE,GICREEQN,General Insurance Corporation of India,INE481Y01014,NIFTY MIDCAP 150,corporation of india
+AWL,AWLEQN,Adani Wilmar Limited,INE699H01024,NIFTY MIDCAP 150,adani wilmar
+LINDEINDIA,LINDEINDIAEQN,Linde India Limited,INE473A01011,NIFTY MIDCAP 150,linde india
+RAMCOCEM,RAMCOCEMEQN,The Ramco Cements Limited,INE331A01037,NIFTY MIDCAP 150,the ramco cements
+ENDURANCE,ENDURANCEEQN,Endurance Technologies Limited,INE913H01037,NIFTY MIDCAP 150,endurance technologies
+GLAXO,GLAXOEQN,GlaxoSmithKline Pharmaceuticals Limited,INE159A01016,NIFTY MIDCAP 150,glaxosmithkline pharmaceuticals
+TIMKEN,TIMKENEQN,Timken India Limited,INE325A01013,NIFTY MIDCAP 150,timken india
+JKCEMENT,JKCEMENTEQN,JK Cement Limited,INE823G01014,NIFTY MIDCAP 150,jk cement
+AIAENG,AIAENGEQN,AIA Engineering Limited,INE212H01026,NIFTY MIDCAP 150,aia engineering
+STARHEALTH,STARHEALTHEQN,Star Health and Allied Insurance Company Limited,INE575P01011,NIFTY MIDCAP 150,star health and allied
+SOLARINDS,SOLARINDSEQN,Solar Industries India Limited,INE343H01029,NIFTY MIDCAP 150,solar industries india
+SCHAEFFLER,SCHAEFFLEREQN,Schaeffler India Limited,INE513A01022,NIFTY MIDCAP 150,schaeffler india
+METROBRAND,METROBRANDEQN,Metro Brands Limited,INE317I01021,NIFTY MIDCAP 150,metro brands
+ISEC,ISECEQN,ICICI Securities Limited,INE763G01038,NIFTY MIDCAP 150,icici securities
+MANYAVAR,MANYAVAREQN,Vedant Fashions Limited,INE825V01034,NIFTY MIDCAP 150,vedant fashions
+CARBORUNIV,CARBORUNIVEQN,Carborundum Universal Limited,INE120A01034,NIFTY MIDCAP 150,carborundum universal
+EMAMILTD,EMAMILTDEQN,Emami Limited,INE548C01032,NIFTY MIDCAP 150,emami
+ABBOTINDIA,ABBOTINDIAEQN,Abbott India Limited,INE358A01014,NIFTY MIDCAP 150,abbott india
+CRISIL,CRISILEQN,CRISIL Limited,INE007A01025,NIFTY MIDCAP 150,crisil
+MSUMI,MSUMIEQN,Motherson Sumi Wiring India Limited,INE0FS801015,NIFTY MIDCAP 150,motherson sumi wiring india
+NIACL,NIACLEQN,The New India Assurance Company Limited,INE470Y01017,NIFTY MIDCAP 150,the new india assurance
+SUNDRMFAST,SUNDRMFASTEQN,Sundram Fasteners Limited,INE387A01021,NIFTY MIDCAP 150,sundram fasteners
+GODREJIND,GODREJINDEQN,Godrej Industries Limited,INE233A01035,NIFTY MIDCAP 150,godrej industries
+SUNDARMFIN,SUNDARMFINEQN,Sundaram Finance Limited,INE660A01013,NIFTY MIDCAP 150,sundaram finance
+SKFINDIA,SKFINDIAEQN,SKF India Limited,INE640A01023,NIFTY MIDCAP 150,skf india
+KAJARIACER,KAJARIACEREQN,Kajaria Ceramics Limited,INE217B01036,NIFTY MIDCAP 150,kajaria ceramics
+KANSAINER,KANSAINEREQN,Kansai Nerolac Paints Limited,INE531A01024,NIFTY MIDCAP 150,kansai nerolac paints
+BATAINDIA,BATAINDIAEQN,Bata India Limited,INE176A01028,NIFTY MIDCAP 150,bata india
+PGHH,PGHHEQN,Procter & Gamble Hygiene and Health Care Limited,INE179A01014,NIFTY MIDCAP 150,procter gamble hygiene and health care
+HONAUT,HONAUTEQN,Honeywell Automation India Limited,INE671A01010,NIFTY MIDCAP 150,honeywell automation india
+ATUL,ATULEQN,Atul Limited,INE100A01010,NIFTY MIDCAP 150,atul
+KEI,KEIEQN,KEI Industries Limited,INE878B01027,NIFTY MIDCAP 150,kei industries
+ZFCVINDIA,ZFCVINDIAEQN,ZF Commercial Vehicle Control Systems India Limited,INE342J01019,NIFTY MIDCAP 150,zf commercial vehicle control systems india
+3MINDIA,3MINDIAEQN,3M India Limited,INE470A01017,NIFTY MIDCAP 150,3m india
+GRINDWELL,GRINDWELLEQN,Grindwell Norton Limited,INE536A01023,NIFTY MIDCAP 150,grindwell norton
+COROMANDEL,COROMANDELEQN,Coromandel International Limited,INE169A08010,NIFTY MIDCAP 150,coromandel international
+AJANTPHARM,AJANTPHARMEQN,Ajanta Pharma Limited,INE031B01049,NIFTY MIDCAP 150,ajanta pharma
+PHOENIXLTD,PHOENIXLTDEQN,The Phoenix Mills Limited,INE211B01039,NIFTY MIDCAP 150,the phoenix mills
+THERMAX,THERMAXEQN,Thermax Limited,INE152A01029,NIFTY MIDCAP 150,thermax
+MUTHOOTFIN,MUTHOOTFINEQN,Muthoot Finance Limited,INE414G07233,NIFTY MIDCAP 150,muthoot finance
+BAYERCROP,BAYERCROPEQN,Bayer Cropscience Limited,INE462A01022,NIFTY MIDCAP 150,bayer cropscience
+SUMICHEM,SUMICHEMEQN,Sumitomo Chemical India Limited,INE258G01013,NIFTY MIDCAP 150,sumitomo chemical india
+UBL,UBLEQN,United Breweries Limited,INE686F01025,NIFTY MIDCAP 150,united breweries
+IIFL,IIFLEQN,IIFL Finance Limited,INE530B07120,NIFTY SMALLCAP 50,iifl finance
+ANGELONE,ANGELONEEQN,Angel One Limited,INE732I01013,NIFTY SMALLCAP 50,angel one
+FIVESTAR,FIVESTAREQN,Five-Star Business Finance Limited,INE128S01021,NIFTY SMALLCAP 50,fivestar business finance
+IEX,IEXEQN,Indian Energy Exchange Limited,INE022Q01020,NIFTY SMALLCAP 50,indian energy exchange
+HFCL,HFCLEQN,HFCL Limited,INE548A01028,NIFTY SMALLCAP 50,hfcl
+CENTURYTEX,CENTURYTEXEQN,Century Textiles & Industries Limited,INE055A01016,NIFTY SMALLCAP 50,century textiles industries
+CASTROLIND,CASTROLINDEQN,Castrol India Limited,INE172A01027,NIFTY SMALLCAP 50,castrol india
+NATIONALUM,NATIONALUMEQN,National Aluminium Company Limited,INE139A01034,NIFTY SMALLCAP 50,national aluminium
+NAVINFLUOR,NAVINFLUOREQN,Navin Fluorine International Limited,INE048G01026,NIFTY SMALLCAP 50,navin fluorine international
+INDIAMART,INDIAMARTEQN,Indiamart Intermesh Limited,INE933S01016,NIFTY SMALLCAP 50,indiamart intermesh
+ZENSARTECH,ZENSARTECHEQN,Zensar Technologies Limited,INE520A01027,NIFTY SMALLCAP 50,zensar technologies
+RBLBANK,RBLBANKEQN,RBL Bank Limited,INE976G01028,NIFTY SMALLCAP 50,rbl bank
+CDSL,CDSLEQN,Central Depository Services (India) Limited,INE736A01011,NIFTY SMALLCAP 50,central depository services india
+GESHIP,GESHIPEQN,The Great Eastern Shipping Company Limited,INE017A01032,NIFTY SMALLCAP 50,the great eastern shipping
+NCC,NCCEQN,NCC Limited,INE868B01028,NIFTY SMALLCAP 50,ncc
+TANLA,TANLAEQN,Tanla Platforms Limited,INE483C01032,NIFTY SMALLCAP 50,tanla platforms
+CAMS,CAMSEQN,Computer Age Management Services Limited,INE596I01012,NIFTY SMALLCAP 50,computer age management services
+AARTIIND,AARTIINDEQN,Aarti Industries Limited,INE769A01020,NIFTY SMALLCAP 50,aarti industries
+CYIENT,CYIENTEQN,Cyient Limited,INE136B01020,NIFTY SMALLCAP 50,cyient
+MCX,MCXEQN,Multi Commodity Exchange of India Limited,INE745G01035,NIFTY SMALLCAP 50,multi commodity exchange of india
+EXIDEIND,EXIDEINDEQN,Exide Industries Limited,INE302A01020,NIFTY SMALLCAP 50,exide industries
+HAPPSTMNDS,HAPPSTMNDSEQN,Happiest Minds Technologies Limited,INE419U01012,NIFTY SMALLCAP 50,happiest minds technologies
+RAYMOND,RAYMONDEQN,Raymond Limited,INE301A01014,NIFTY SMALLCAP 50,raymond
+BSOFT,BSOFTEQN,BIRLASOFT LIMITED,INE836A01035,NIFTY SMALLCAP 50,birlasoft
+CREDITACC,CREDITACCEQN,CREDITACCESS GRAMEEN LIMITED,INE741K01010,NIFTY SMALLCAP 50,creditaccess grameen
+RKFORGE,RKFORGEEQN,Ramkrishna Forgings Limited,INE399G01023,NIFTY SMALLCAP 50,ramkrishna forgings
+ARE&M,ARE&MEQN,Amara Raja Energy & Mobility Limited,INE885A01032,NIFTY SMALLCAP 50,amara raja energy mobility
+NAM-INDIA,NAM-INDIAEQN,Nippon Life India Asset Management Limited,INE298J01013,NIFTY SMALLCAP 50,nippon life india asset management
+NH,NHEQN,Narayana Hrudayalaya Ltd.,INE410P01011,NIFTY SMALLCAP 50,narayana hrudayalaya ltd
+IDFC,IDFCEQN,IDFC Limited,INE043D07427,NIFTY SMALLCAP 50,idfc
+RADICO,RADICOEQN,Radico Khaitan Limited,INE944F01028,NIFTY SMALLCAP 50,radico khaitan
+PNBHOUSING,PNBHOUSINGEQN,PNB Housing Finance Limited,INE572E01012,NIFTY SMALLCAP 50,pnb housing finance
+SONATSOFTW,SONATSOFTWEQN,Sonata Software Limited,INE269A01021,NIFTY SMALLCAP 50,sonata software
+BLUESTARCO,BLUESTARCOEQN,Blue Star Limited,INE472A01039,NIFTY SMALLCAP 50,blue star
+MANAPPURAM,MANAPPURAMEQN,Manappuram Finance Limited,INE522D07768,NIFTY SMALLCAP 50,manappuram finance
+CUB,CUBEQN,City Union Bank Limited,INE491A01021,NIFTY SMALLCAP 50,city union bank
+EQUITASBNK,EQUITASBNKEQN,Equitas Small Finance Bank Limited,INE063P01018,NIFTY SMALLCAP 50,equitas small finance bank
+KARURVYSYA,KARURVYSYAEQN,Karur Vysya Bank Limited,IN9036D01059,NIFTY SMALLCAP 50,karur vysya bank
+GLENMARK,GLENMARKEQN,Glenmark Pharmaceuticals Limited,INE935A01035,NIFTY SMALLCAP 50,glenmark pharmaceuticals
+NATCOPHARM,NATCOPHARMEQN,Natco Pharma Limited,INE987B01026,NIFTY SMALLCAP 50,natco pharma
+CESC,CESCEQN,CESC Limited,INE486A01021,NIFTY SMALLCAP 50,cesc
+TEJASNET,TEJASNETEQN,Tejas Networks Limited,INE010J01012,NIFTY SMALLCAP 50,tejas networks
+AAVAS,AAVASEQN,Aavas Financiers Limited,INE216P01012,NIFTY SMALLCAP 50,aavas financiers
+PVRINOX,PVRINOXEQN,PVR INOX Limited,INE191H01014,NIFTY SMALLCAP 50,pvr inox
+CROMPTON,CROMPTONEQN,Crompton Greaves Consumer Electricals Limited,INE299U01018,NIFTY SMALLCAP 50,crompton greaves consumer electricals
+GSPL,GSPLEQN,Gujarat State Petronet Limited,INE246F01010,NIFTY SMALLCAP 50,gujarat state petronet
+PPLPHARMA,PPLPHARMAEQN,Piramal Pharma Limited,INE0DK501011,NIFTY SMALLCAP 50,piramal pharma
+FINCABLES,FINCABLESEQN,Finolex Cables Limited,INE235A01022,NIFTY SMALLCAP 50,finolex cables
+MGL,MGLEQN,Mahanagar Gas Limited,INE002S01010,NIFTY SMALLCAP 50,mahanagar gas
+APARINDS,APARINDSEQN,Apar Industries Limited,INE372A01015,NIFTY SMALLCAP 50,apar industries
+COCHINSHIP,COCHINSHIPEQN,Cochin Shipyard Limited,INE704P01025,NIFTY SMALLCAP 100,cochin shipyard
+HUDCO,HUDCOEQN,Housing & Urban Development Corporation Limited,INE031A07873,NIFTY SMALLCAP 100,housing urban development corporation
+RITES,RITESEQN,RITES Limited,INE320J01015,NIFTY SMALLCAP 100,rites
+TITAGARH,TITAGARHEQN,TITAGARH RAIL SYSTEMS LIMITED,INE615H01020,NIFTY SMALLCAP 100,titagarh rail systems
+SWANENERGY,SWANENERGYEQN,Swan Energy Limited,INE665A01038,NIFTY SMALLCAP 100,swan energy
+IRCON,IRCONEQN,Ircon International Limited,INE962Y01021,NIFTY SMALLCAP 100,ircon international
+SHYAMMETL,SHYAMMETLEQN,Shyam Metalics and Energy Limited,INE810G01011,NIFTY SMALLCAP 100,shyam metalics and energy
+FSL,FSLEQN,Firstsource Solutions Limited,INE684F01012,NIFTY SMALLCAP 100,firstsource solutions
+PRAJIND,PRAJINDEQN,Praj Industries Limited,INE074A01025,NIFTY SMALLCAP 100,praj industries
+IRB,IRBEQN,IRB Infrastructure Developers Limited,INE821I01022,NIFTY SMALLCAP 100,irb infrastructure developers
+CENTRALBK,CENTRALBKEQN,Central Bank of India,INE483A01010,NIFTY SMALLCAP 100,central bank of india
+NBCC,NBCCEQN,NBCC (India) Limited,INE095N01031,NIFTY SMALLCAP 100,nbcc india
+GRAPHITE,GRAPHITEEQN,Graphite India Limited,INE371A01025,NIFTY SMALLCAP 100,graphite india
+AFFLE,AFFLEEQN,Affle (India) Limited,INE00WC01027,NIFTY SMALLCAP 100,affle india
+CANFINHOME,CANFINHOMEEQN,Can Fin Homes Limited,INE477A01020,NIFTY SMALLCAP 100,can fin homes
+GMDCLTD,GMDCLTDEQN,Gujarat Mineral Development Corporation Limited,INE131A01031,NIFTY SMALLCAP 100,gujarat mineral development corporation
+IOB,IOBEQN,Indian Overseas Bank,INE565A01014,NIFTY SMALLCAP 100,indian overseas bank
+UCOBANK,UCOBANKEQN,UCO Bank,INE691A01018,NIFTY SMALLCAP 100,uco bank
+CEATLTD,CEATLTDEQN,CEAT Limited,INE482A01020,NIFTY SMALLCAP 100,ceat
+JYOTHYLAB,JYOTHYLABEQN,Jyothy Labs Limited,INE668F01031,NIFTY SMALLCAP 100,jyothy labs
+RENUKA,RENUKAEQN,Shree Renuka Sugars Limited,INE087H01022,NIFTY SMALLCAP 100,shree renuka sugars
+HINDCOPPER,HINDCOPPEREQN,Hindustan Copper Limited,INE531E01026,NIFTY SMALLCAP 100,hindustan copper
+CIEINDIA,CIEINDIAEQN,CIE Automotive India Limited,INE536H01010,NIFTY SMALLCAP 100,cie automotive india
+NSLNISP,NSLNISPEQN,NMDC Steel Limited,INE0NNS01018,NIFTY SMALLCAP 100,nmdc steel
+DATAPATTNS,DATAPATTNSEQN,Data Patterns (India) Limited,INE0IX101010,NIFTY SMALLCAP 100,data patterns india
+TATAINVEST,TATAINVESTEQN,Tata Investment Corporation Limited,INE672A13013,NIFTY SMALLCAP 100,tata investment corporation
+OLECTRA,OLECTRAEQN,Olectra Greentech Limited,INE260D01016,NIFTY SMALLCAP 100,olectra greentech
+TRIDENT,TRIDENTEQN,Trident Limited,INE064C01022,NIFTY SMALLCAP 100,trident
+RRKABEL,RRKABELEQN,R R Kabel Limited,INE777K01022,NIFTY SMALLCAP 100,r r kabel
+TTML,TTMLEQN,Tata Teleservices (Maharashtra) Limited,INE517B01013,NIFTY SMALLCAP 100,tata teleservices maharashtra
+IDFC,IDFCEQN,IDFC Limited,INE043D07377,NIFTY SMALLCAP 100,idfc
+UJJIVANSFB,UJJIVANSFBEQN,Ujjivan Small Finance Bank Limited,INE551W01018,NIFTY SMALLCAP 100,ujjivan small finance bank
+CHAMBLFERT,CHAMBLFERTEQN,Chambal Fertilizers & Chemicals Limited,INE085A01013,NIFTY SMALLCAP 100,chambal fertilizers chemicals
+INTELLECT,INTELLECTEQN,Intellect Design Arena Limited,INE306R01017,NIFTY SMALLCAP 100,intellect design arena
+MANAPPURAM,MANAPPURAMEQN,Manappuram Finance Limited,INE522D07743,NIFTY SMALLCAP 100,manappuram finance
+HONASA,HONASAEQN,Honasa Consumer Limited,INE0J5401028,NIFTY SMALLCAP 100,honasa consumer
+ALOKINDS,ALOKINDSEQN,Alok Industries Limited,INE270A01029,NIFTY SMALLCAP 100,alok industries
+GNFC,GNFCEQN,Gujarat Narmada Valley Fertilizers and Chemicals Limited,INE113A01013,NIFTY SMALLCAP 100,gujarat narmada valley fertilizers and chemicals
+JBCHEPHARM,JBCHEPHARMEQN,JB Chemicals & Pharmaceuticals Limited,INE572A01036,NIFTY SMALLCAP 100,jb chemicals pharmaceuticals
+MEDANTA,MEDANTAEQN,Global Health Limited,INE474Q01031,NIFTY SMALLCAP 100,global health
+NLCINDIA,NLCINDIAEQN,NLC India Limited,INE589A01014,NIFTY SMALLCAP 100,nlc india
+TRITURBINE,TRITURBINEEQN,Triveni Turbine Limited,INE152M01016,NIFTY SMALLCAP 100,triveni turbine
+REDINGTON,REDINGTONEQN,Redington Limited,INE891D01026,NIFTY SMALLCAP 100,redington
+ITI,ITIEQN,ITI Limited,INE248A01017,NIFTY SMALLCAP 100,iti
+WELSPUNLIV,WELSPUNLIVEQN,Welspun Living Limited,INE192B01031,NIFTY SMALLCAP 100,welspun living
+MRPL,MRPLEQN,Mangalore Refinery and Petrochemicals Limited,INE103A01014,NIFTY SMALLCAP 100,mangalore refinery and petrochemicals
+BLS,BLSEQN,BLS International Services Limited,INE153T01027,NIFTY SMALLCAP 100,bls international services
+AMBER,AMBEREQN,Amber Enterprises India Limited,INE371P01015,NIFTY SMALLCAP 100,amber enterprises india
+J&KBANK,J&KBANKEQN,The Jammu & Kashmir Bank Limited,INE168A01041,NIFTY SMALLCAP 100,the jammu kashmir bank
+JBMA,JBMAEQN,JBM Auto Limited,INE927D01044,NIFTY SMALLCAP 100,jbm auto
+HSCL,HSCLEQN,Himadri Speciality Chemical Limited,INE019C01026,NIFTY SMALLCAP 100,himadri speciality chemical
+KEC,KECEQN,KEC International Limited,INE389H01022,NIFTY SMALLCAP 100,kec international
+PRSMJOHNSN,PRSMJOHNSNEQN,Prism Johnson Limited,INE010A01011,NIFTY SMALLCAP 250,prism johnson
+GRSE,GRSEEQN,Garden Reach Shipbuilders & Engineers Limited,INE382Z01011,NIFTY SMALLCAP 250,garden reach shipbuilders engineers
+MINDACORP,MINDACORPEQN,Minda Corporation Limited,INE842C01021,NIFTY SMALLCAP 250,minda corporation
+ASAHIINDIA,ASAHIINDIAEQN,Asahi India Glass Limited,INE439A01020,NIFTY SMALLCAP 250,asahi india glass
+JAIBALAJI,JAIBALAJIEQN,Jai Balaji Industries Limited,INE091G01018,NIFTY SMALLCAP 250,jai balaji industries
+CHOLAHLDNG,CHOLAHLDNGEQN,Cholamandalam Financial Holdings Limited,INE149A01033,NIFTY SMALLCAP 250,cholamandalam financial holdings
+ENGINERSIN,ENGINERSINEQN,Engineers India Limited,INE510A01028,NIFTY SMALLCAP 250,engineers india
+USHAMART,USHAMARTEQN,Usha Martin Limited,INE228A01035,NIFTY SMALLCAP 250,usha martin
+NUVAMA,NUVAMAEQN,Nuvama Wealth Management Limited,INE531F01015,NIFTY SMALLCAP 250,nuvama wealth management
+RAILTEL,RAILTELEQN,Railtel Corporation Of India Limited,INE0DD101019,NIFTY SMALLCAP 250,railtel corporation of india
+SAPPHIRE,SAPPHIREEQN,Sapphire Foods India Limited,INE806T01020,NIFTY SMALLCAP 250,sapphire foods india
+SCHNEIDER,SCHNEIDEREQN,Schneider Electric Infrastructure Limited,INE839M01018,NIFTY SMALLCAP 250,schneider electric infrastructure
+SUVENPHAR,SUVENPHAREQN,Suven Pharmaceuticals Limited,INE03QK01018,NIFTY SMALLCAP 250,suven pharmaceuticals
+SAMMAANCAP,SAMMAANCAPEQN,Sammaan Capital Limited,INE148I07LL3,NIFTY SMALLCAP 250,sammaan capital
+ACE,ACEEQN,Action Construction Equipment Limited,INE731H01025,NIFTY SMALLCAP 250,action construction equipment
+TRIVENI,TRIVENIEQN,Triveni Engineering & Industries Limited,INE256C01024,NIFTY SMALLCAP 250,triveni engineering industries
+SWSOLAR,SWSOLAREQN,Sterling and Wilson Renewable Energy Limited,INE00M201021,NIFTY SMALLCAP 250,sterling and wilson renewable energy
+BEML,BEMLEQN,BEML Limited,INE258A01016,NIFTY SMALLCAP 250,beml
+JKPAPER,JKPAPEREQN,JK Paper Limited,INE789E01012,NIFTY SMALLCAP 250,jk paper
+INDIGOPNTS,INDIGOPNTSEQN,Indigo Paints Limited,INE09VQ01012,NIFTY SMALLCAP 250,indigo paints
+CENTURYPLY,CENTURYPLYEQN,Century Plyboards (India) Limited,INE348B01021,NIFTY SMALLCAP 250,century plyboards india
+JMFINANCIL,JMFINANCILEQN,JM Financial Limited,INE780C01023,NIFTY SMALLCAP 250,jm financial
+FDC,FDCEQN,FDC Limited,INE258B01022,NIFTY SMALLCAP 250,fdc
+INOXWIND,INOXWINDEQN,Inox Wind Limited,INE066P01011,NIFTY SMALLCAP 250,inox wind
+JWL,JWLEQN,Jupiter Wagons Limited,INE209L01016,NIFTY SMALLCAP 250,jupiter wagons
+JINDALSAW,JINDALSAWEQN,Jindal Saw Limited,INE324A01024,NIFTY SMALLCAP 250,jindal saw
+APTUS,APTUSEQN,Aptus Value Housing Finance India Limited,INE852O01025,NIFTY SMALLCAP 250,aptus value housing finance india
+EIDPARRY,EIDPARRYEQN,EID Parry India Limited,INE126A01031,NIFTY SMALLCAP 250,eid parry india
+QUESS,QUESSEQN,Quess Corp Limited,INE615P01015,NIFTY SMALLCAP 250,quess corp
+TV18BRDCST,TV18BRDCSTEQN,TV18 Broadcast Limited,IN9886H01017,NIFTY SMALLCAP 250,tv18 broadcast
+SOBHA,SOBHAEQN,Sobha Limited,INE671H01015,NIFTY SMALLCAP 250,sobha
+WESTLIFE,WESTLIFEEQN,WESTLIFE FOODWORLD LIMITED,INE274F01020,NIFTY SMALLCAP 250,westlife foodworld
+BBTC,BBTCEQN,Bombay Burmah Trading Corporation Limited,INE050A01025,NIFTY SMALLCAP 250,bombay burmah trading corporation
+CSBBANK,CSBBANKEQN,CSB Bank Limited,INE679A01013,NIFTY SMALLCAP 250,csb bank
+MHRIL,MHRILEQN,Mahindra Holidays & Resorts India Limited,INE998I01010,NIFTY SMALLCAP 250,mahindra holidays resorts india
+MMTC,MMTCEQN,MMTC Limited,INE123F01029,NIFTY SMALLCAP 250,mmtc
+JUBLPHARMA,JUBLPHARMAEQN,Jubilant Pharmova Limited,INE700A01033,NIFTY SMALLCAP 250,jubilant pharmova
+MAPMYINDIA,MAPMYINDIAEQN,C.E. Info Systems Limited,INE0BV301023,NIFTY SMALLCAP 250,ce info systems
+NUVOCO,NUVOCOEQN,Nuvoco Vistas Corporation Limited,INE118D01016,NIFTY SMALLCAP 250,nuvoco vistas corporation
+NETWORK18,NETWORK18EQN,Network18 Media & Investments Limited,INE870H01013,NIFTY SMALLCAP 250,network18 media investments
+CAPLIPOINT,CAPLIPOINTEQN,Caplin Point Laboratories Limited,INE475E01026,NIFTY SMALLCAP 250,caplin point laboratories
+RTNINDIA,RTNINDIAEQN,RattanIndia Enterprises Limited,INE834M01019,NIFTY SMALLCAP 250,rattanindia enterprises
+CONCORDBIO,CONCORDBIOEQN,Concord Biotech Limited,INE338H01029,NIFTY SMALLCAP 250,concord biotech
+KSB,KSBEQN,Ksb Limited,INE999A01023,NIFTY SMALLCAP 250,ksb
+GODFRYPHLP,GODFRYPHLPEQN,Godfrey Phillips India Limited,INE260B01028,NIFTY SMALLCAP 250,godfrey phillips india
+RHIM,RHIMEQN,RHI MAGNESITA INDIA LIMITED,INE743M01012,NIFTY SMALLCAP 250,rhi magnesita india
+LXCHEM,LXCHEMEQN,Laxmi Organic Industries Limited,INE576O01020,NIFTY SMALLCAP 250,laxmi organic industries
+TVSSCS,TVSSCSEQN,TVS Supply Chain Solutions Limited,INE395N01027,NIFTY SMALLCAP 250,tvs supply chain solutions
+JUBLINGREA,JUBLINGREAEQN,Jubilant Ingrevia Limited,INE0BY001018,NIFTY SMALLCAP 250,jubilant ingrevia
+POWERINDIA,POWERINDIAEQN,Hitachi Energy India Limited,INE07Y701011,NIFTY SMALLCAP 250,hitachi energy india
+EPL,EPLEQN,EPL Limited,INE255A01020,NIFTY SMALLCAP 250,epl
+EASEMYTRIP,EASEMYTRIPEQN,Easy Trip Planners Limited,INE07O001026,NIFTY SMALLCAP 250,easy trip planners
+SUNTECK,SUNTECKEQN,Sunteck Realty Limited,INE805D01034,NIFTY SMALLCAP 250,sunteck realty
+ASTERDM,ASTERDMEQN,Aster DM Healthcare Limited,INE914M01019,NIFTY SMALLCAP 250,aster dm healthcare
+WHIRLPOOL,WHIRLPOOLEQN,Whirlpool of India Limited,INE716A01013,NIFTY SMALLCAP 250,whirlpool of india
+ELECON,ELECONEQN,Elecon Engineering Company Limited,INE205B01031,NIFTY SMALLCAP 250,elecon engineering
+CRAFTSMAN,CRAFTSMANEQN,Craftsman Automation Limited,INE00LO01017,NIFTY SMALLCAP 250,craftsman automation
+JUSTDIAL,JUSTDIALEQN,Just Dial Limited,INE599M01018,NIFTY SMALLCAP 250,just dial
+BALRAMCHIN,BALRAMCHINEQN,Balrampur Chini Mills Limited,INE119A01028,NIFTY SMALLCAP 250,balrampur chini mills
+CAMPUS,CAMPUSEQN,Campus Activewear Limited,INE278Y01022,NIFTY SMALLCAP 250,campus activewear
+MASTEK,MASTEKEQN,Mastek Limited,INE759A01021,NIFTY SMALLCAP 250,mastek
+HBLPOWER,HBLPOWEREQN,HBL Power Systems Limited,INE292B01021,NIFTY SMALLCAP 250,hbl power systems
+ALKYLAMINE,ALKYLAMINEEQN,Alkyl Amines Chemicals Limited,INE150B01039,NIFTY SMALLCAP 250,alkyl amines chemicals
+BRIGADE,BRIGADEEQN,Brigade Enterprises Limited,INE791I01019,NIFTY SMALLCAP 250,brigade enterprises
+HOMEFIRST,HOMEFIRSTEQN,Home First Finance Company India Limited,INE481N01025,NIFTY SMALLCAP 250,home first finance india
+UTIAMC,UTIAMCEQN,UTI Asset Management Company Limited,INE094J01016,NIFTY SMALLCAP 250,uti asset management
+STLTECH,STLTECHEQN,Sterlite Technologies Limited,INE089C01029,NIFTY SMALLCAP 250,sterlite technologies
+ELGIEQUIP,ELGIEQUIPEQN,Elgi Equipments Limited,IN9285A01033,NIFTY SMALLCAP 250,elgi equipments
+RBA,RBAEQN,Restaurant Brands Asia Limited,INE07T201019,NIFTY SMALLCAP 250,restaurant brands asia
+GMMPFAUDLR,GMMPFAUDLREQN,GMM Pfaudler Limited,INE541A01023,NIFTY SMALLCAP 250,gmm pfaudler
+HEG,HEGEQN,HEG Limited,INE545A01016,NIFTY SMALLCAP 250,heg
+SIGNATURE,SIGNATUREEQN,Signatureglobal (India) Limited,INE903U01023,NIFTY SMALLCAP 250,signatureglobal india
+ACI,ACIEQN,Archean Chemical Industries Limited,INE128X01021,NIFTY SMALLCAP 250,archean chemical industries
+HAPPYFORGE,HAPPYFORGEEQN,Happy Forgings Limited,INE330T01021,NIFTY SMALLCAP 250,happy forgings
+TMB,TMBEQN,Tamilnad Mercantile Bank Limited,INE668A01016,NIFTY SMALLCAP 250,tamilnad mercantile bank
+BORORENEW,BORORENEWEQN,BOROSIL RENEWABLES LIMITED,INE666D01022,NIFTY SMALLCAP 250,borosil renewables
+CCL,CCLEQN,CCL Products (India) Limited,INE421D01022,NIFTY SMALLCAP 250,ccl products india
+MTARTECH,MTARTECHEQN,Mtar Technologies Limited,INE864I01014,NIFTY SMALLCAP 250,mtar technologies
+SPARC,SPARCEQN,Sun Pharma Advanced Research Company Limited,IN9232I01012,NIFTY SMALLCAP 250,sun pharma advanced research
+BIKAJI,BIKAJIEQN,Bikaji Foods International Limited,INE00E101023,NIFTY SMALLCAP 250,bikaji foods international
+LEMONTREE,LEMONTREEEQN,Lemon Tree Hotels Limited,INE970X01018,NIFTY SMALLCAP 250,lemon tree hotels
+CERA,CERAEQN,Cera Sanitaryware Limited,INE739E01017,NIFTY SMALLCAP 250,cera sanitaryware
+GSFC,GSFCEQN,Gujarat State Fertilizers & Chemicals Limited,INE026A01025,NIFTY SMALLCAP 250,gujarat state fertilizers chemicals
+SANOFI,SANOFIEQN,Sanofi India Limited,INE058A01010,NIFTY SMALLCAP 250,sanofi india
+GPIL,GPILEQN,Godawari Power And Ispat limited,INE177H01021,NIFTY SMALLCAP 250,godawari power and ispat
+KRBL,KRBLEQN,KRBL Limited,INE001B01026,NIFTY SMALLCAP 250,krbl
+SBFC,SBFCEQN,SBFC Finance Limited,INE423Y01016,NIFTY SMALLCAP 250,sbfc finance
+AVANTIFEED,AVANTIFEEDEQN,Avanti Feeds Limited,INE871C01038,NIFTY SMALLCAP 250,avanti feeds
+PNCINFRA,PNCINFRAEQN,PNC Infratech Limited,INE195J01029,NIFTY SMALLCAP 250,pnc infratech
+PCBL,PCBLEQN,PCBL LIMITED,INE602A01031,NIFTY SMALLCAP 250,pcbl
+CLEAN,CLEANEQN,Clean Science and Technology Limited,INE227W01023,NIFTY SMALLCAP 250,clean science and technology
+ANURAS,ANURASEQN,Anupam Rasayan India Limited,INE930P01018,NIFTY SMALLCAP 250,anupam rasayan india
+ROUTE,ROUTEEQN,ROUTE MOBILE LIMITED,INE450U01017,NIFTY SMALLCAP 250,route mobile
+KAYNES,KAYNESEQN,Kaynes Technology India Limited,INE918Z01012,NIFTY SMALLCAP 250,kaynes technology india
+JKLAKSHMI,JKLAKSHMIEQN,JK Lakshmi Cement Limited,INE786A01032,NIFTY SMALLCAP 250,jk lakshmi cement
+MAHLIFE,MAHLIFEEQN,Mahindra Lifespace Developers Limited,INE813A01018,NIFTY SMALLCAP 250,mahindra lifespace developers
+VARROC,VARROCEQN,Varroc Engineering Limited,INE665L01035,NIFTY SMALLCAP 250,varroc engineering
+GILLETTE,GILLETTEEQN,Gillette India Limited,INE322A01010,NIFTY SMALLCAP 250,gillette india
+LATENTVIEW,LATENTVIEWEQN,Latent View Analytics Limited,INE0I7C01011,NIFTY SMALLCAP 250,latent view analytics
+VAIBHAVGBL,VAIBHAVGBLEQN,Vaibhav Global Limited,INE884A01027,NIFTY SMALLCAP 250,vaibhav global
+KNRCON,KNRCONEQN,KNR Constructions Limited,INE634I01029,NIFTY SMALLCAP 250,knr constructions
+CHEMPLASTS,CHEMPLASTSEQN,Chemplast Sanmar Limited,INE488A01050,NIFTY SMALLCAP 250,chemplast sanmar
+CHENNPETRO,CHENNPETROEQN,Chennai Petroleum Corporation Limited,INE178A01016,NIFTY SMALLCAP 250,chennai petroleum corporation
+BLUEDART,BLUEDARTEQN,Blue Dart Express Limited,INE233B08103,NIFTY SMALLCAP 250,blue dart express
+PRINCEPIPE,PRINCEPIPEEQN,Prince Pipes And Fittings Limited,INE689W01016,NIFTY SMALLCAP 250,prince pipes and fittings
+RATNAMANI,RATNAMANIEQN,Ratnamani Metals & Tubes Limited,INE703B01027,NIFTY SMALLCAP 250,ratnamani metals tubes
+VIPIND,VIPINDEQN,VIP Industries Limited,INE054A01027,NIFTY SMALLCAP 250,vip industries
+ASTRAZEN,ASTRAZENEQN,AstraZeneca Pharma India Limited,INE203A01020,NIFTY SMALLCAP 250,astrazeneca pharma india
+KFINTECH,KFINTECHEQN,Kfin Technologies Limited,INE138Y01010,NIFTY SMALLCAP 250,kfin technologies
+EIHOTEL,EIHOTELEQN,EIH Limited,INE230A01023,NIFTY SMALLCAP 250,eih
+KIMS,KIMSEQN,Krishna Institute of Medical Sciences Limited,INE967H01025,NIFTY SMALLCAP 250,krishna institute of medical sciences
+MEDPLUS,MEDPLUSEQN,Medplus Health Services Limited,INE804L01022,NIFTY SMALLCAP 250,medplus health services
+WELCORP,WELCORPEQN,Welspun Corp Limited,INE191B01025,NIFTY SMALLCAP 250,welspun corp
+ECLERX,ECLERXEQN,eClerx Services Limited,INE738I01010,NIFTY SMALLCAP 250,eclerx services
+CGCL,CGCLEQN,Capri Global Capital Limited,INE180C01042,NIFTY SMALLCAP 250,capri global capital
+DOMS,DOMSEQN,DOMS Industries Limited,INE321T01012,NIFTY SMALLCAP 250,doms industries
+BIRLACORPN,BIRLACORPNEQN,Birla Corporation Limited,INE340A01012,NIFTY SMALLCAP 250,birla corporation
+VIJAYA,VIJAYAEQN,Vijaya Diagnostic Centre Limited,INE043W01024,NIFTY SMALLCAP 250,vijaya diagnostic centre
+MAHSEAMLES,MAHSEAMLESEQN,Maharashtra Seamless Limited,INE271B01025,NIFTY SMALLCAP 250,maharashtra seamless
+GRANULES,GRANULESEQN,Granules India Limited,INE101D01020,NIFTY SMALLCAP 250,granules india
+ALLCARGO,ALLCARGOEQN,Allcargo Logistics Limited,INE418H01029,NIFTY SMALLCAP 250,allcargo logistics
+MOTILALOFS,MOTILALOFSEQN,Motilal Oswal Financial Services Limited,INE338I01027,NIFTY SMALLCAP 250,motilal oswal financial services
+APLLTD,APLLTDEQN,Alembic Pharmaceuticals Limited,INE901L01018,NIFTY SMALLCAP 250,alembic pharmaceuticals
+VGUARD,VGUARDEQN,V-Guard Industries Limited,INE951I01027,NIFTY SMALLCAP 250,vguard industries
+AETHER,AETHEREQN,Aether Industries Limited,INE0BWX01014,NIFTY SMALLCAP 250,aether industries
+DCMSHRIRAM,DCMSHRIRAMEQN,DCM Shriram Limited,INE499A01024,NIFTY SMALLCAP 250,dcm shriram
+SYRMA,SYRMAEQN,Syrma SGS Technology Limited,INE0DYJ01015,NIFTY SMALLCAP 250,syrma sgs technology
+INDIACEM,INDIACEMEQN,The India Cements Limited,INE383A01012,NIFTY SMALLCAP 250,the india cements
+RCF,RCFEQN,Rashtriya Chemicals and Fertilizers Limited,INE027A01015,NIFTY SMALLCAP 250,rashtriya chemicals and fertilizers
+360ONE,360ONEEQN,360 ONE WAM LIMITED,INE466L01038,NIFTY SMALLCAP 250,360 one wam
+GPPL,GPPLEQN,Gujarat Pipavav Port Limited,INE517F01014,NIFTY SMALLCAP 250,gujarat pipavav port
+CHALET,CHALETEQN,Chalet Hotels Limited,INE427F01016,NIFTY SMALLCAP 250,chalet hotels
+DEEPAKFERT,DEEPAKFERTEQN,Deepak Fertilizers And Petrochemicals Corporation Limited,INE501A01019,NIFTY SMALLCAP 250,deepak fertilizers and petrochemicals corporation
+FINEORG,FINEORGEQN,Fine Organic Industries Limited,INE686Y01026,NIFTY SMALLCAP 250,fine organic industries
+SAFARI,SAFARIEQN,Safari Industries (India) Limited,INE429E01023,NIFTY SMALLCAP 250,safari industries india
+FINPIPE,FINPIPEEQN,Finolex Industries Limited,INE183A01024,NIFTY SMALLCAP 250,finolex industries
+GLS,GLSEQN,Glenmark Life Sciences Limited,INE03Q201024,NIFTY SMALLCAP 250,glenmark life sciences
+CELLO,CELLOEQN,Cello World Limited,INE0LMW01024,NIFTY SMALLCAP 250,cello world
+SAREGAMA,SAREGAMAEQN,Saregama India Limited,INE979A01025,NIFTY SMALLCAP 250,saregama india
+ANANDRATHI,ANANDRATHIEQN,Anand Rathi Wealth Limited,INE463V01026,NIFTY SMALLCAP 250,anand rathi wealth
+GAEL,GAELEQN,Gujarat Ambuja Exports Limited,INE036B01030,NIFTY SMALLCAP 250,gujarat ambuja exports
+METROPOLIS,METROPOLISEQN,Metropolis Healthcare Limited,INE112L01020,NIFTY SMALLCAP 250,metropolis healthcare
+VTL,VTLEQN,Vardhman Textiles Limited,INE825A01020,NIFTY SMALLCAP 250,vardhman textiles
+BALAMINES,BALAMINESEQN,Balaji Amines Limited,INE050E01027,NIFTY SMALLCAP 250,balaji amines
+RAJESHEXPO,RAJESHEXPOEQN,Rajesh Exports Limited,INE343B01030,NIFTY SMALLCAP 250,rajesh exports
+ERIS,ERISEQN,Eris Lifesciences Limited,INE406M01024,NIFTY SMALLCAP 250,eris lifesciences
+KPIL,KPILEQN,Kalpataru Projects International Limited,INE220B01022,NIFTY SMALLCAP 250,kalpataru projects international
+RAINBOW,RAINBOWEQN,Rainbow Childrens Medicare Limited,INE961O01016,NIFTY SMALLCAP 250,rainbow childrens medicare
+AEGISLOG,AEGISLOGEQN,Aegis Logistics Limited,INE208C01025,NIFTY SMALLCAP 250,aegis logistics
+POLYMED,POLYMEDEQN,Poly Medicure Limited,INE205C01021,NIFTY SMALLCAP 250,poly medicure
+SANOFICONR,SANOFICONRBEN,Sanofi Consumer Healthcare India Limited,INE0UOS01011,NIFTY SMALLCAP 250,sanofi consumer healthcare india
+INDHOTEL,INDHOTELEQN,The Indian Hotels Company Limited,INE053A07133,NIFTY MIDSMALLCAP 400,the indian hotels
+M&MFIN,M&MFINEQN,Mahindra & Mahindra Financial Services Limited,INE774D01024,NIFTY MIDSMALLCAP 400,mahindra mahindra financial services
+NETWORK18,NETWORK18EQN,Network18 Media & Investments Limited,INE870H13018,NIFTY500 MULTICAP 50:25:25,network18 media investments
+ITDCEM,ITDCEMEQN,ITD Cementation India Limited,INE686A01026,NIFTY TOTAL MARKET,itd cementation india
+MARKSANS,MARKSANSEQN,Marksans Pharma Limited,INE750C01026,NIFTY TOTAL MARKET,marksans pharma
+ANANTRAJ,ANANTRAJEQN,Anant Raj Limited,INE242C01024,NIFTY TOTAL MARKET,anant raj
+RELINFRA,RELINFRAEQN,Reliance Infrastructure Limited,INE036A01016,NIFTY TOTAL MARKET,reliance infrastructure
+CARTRADE,CARTRADEEQN,Cartrade Tech Limited,INE290S01011,NIFTY TOTAL MARKET,cartrade tech
+MAITHANALL,MAITHANALLEQN,Maithan Alloys Limited,INE683C01011,NIFTY TOTAL MARKET,maithan alloys
+JINDWORLD,JINDWORLDEQN,Jindal Worldwide Limited,INE247D01039,NIFTY TOTAL MARKET,jindal worldwide
+AMIORG,AMIORGEQN,Ami Organics Limited,INE00FF01017,NIFTY TOTAL MARKET,ami organics
+TIDEWATER,TIDEWATEREQN,Tide Water Oil Company (India) Limited,INE484C01030,NIFTY TOTAL MARKET,tide water oil india
+DALMIASUG,DALMIASUGEQN,Dalmia Bharat Sugar and Industries Limited,INE495A01022,NIFTY TOTAL MARKET,dalmia bharat sugar and industries
+SCI,SCIEQN,Shipping Corporation Of India Limited,INE109A01011,NIFTY TOTAL MARKET,shipping corporation of india
+KRSNAA,KRSNAAEQN,Krsnaa Diagnostics Limited,INE08LI01020,NIFTY TOTAL MARKET,krsnaa diagnostics
+PARAS,PARASBEN,Paras Defence and Space Technologies Limited,INE045601015,NIFTY TOTAL MARKET,paras defence and space technologies
+HERITGFOOD,HERITGFOODEQN,Heritage Foods Limited,INE978A01027,NIFTY TOTAL MARKET,heritage foods
+RPOWER,RPOWEREQN,Reliance Power Limited,INE614G01033,NIFTY TOTAL MARKET,reliance power
+WABAG,WABAGEQN,VA Tech Wabag Limited,INE956G01038,NIFTY TOTAL MARKET,va tech wabag
+AHLUCONT,AHLUCONTEQN,Ahluwalia Contracts (India) Limited,INE758C01029,NIFTY TOTAL MARKET,ahluwalia contracts india
+DCAL,DCALEQN,Dishman Carbogen Amcis Limited,INE385W01011,NIFTY TOTAL MARKET,dishman carbogen amcis
+JSWHL,JSWHLEQN,JSW Holdings Limited,INE824G01012,NIFTY TOTAL MARKET,jsw holdings
+YATHARTH,YATHARTHEQN,Yatharth Hospital & Trauma Care Services Limited,INE0JO301016,NIFTY TOTAL MARKET,yatharth hospital trauma care services
+KSL,KSLEQN,Kalyani Steels Limited,INE907A01026,NIFTY TOTAL MARKET,kalyani steels
+KIRLOSBROS,KIRLOSBROSEQN,Kirloskar Brothers Limited,INE732A01036,NIFTY TOTAL MARKET,kirloskar brothers
+IIFLSEC,IIFLSECEQN,IIFL Securities Limited,INE489L01022,NIFTY TOTAL MARKET,iifl securities
+SUPRIYA,SUPRIYAEQN,Supriya Lifescience Limited,INE07RO01027,NIFTY TOTAL MARKET,supriya lifescience
+DHANUKA,DHANUKAEQN,Dhanuka Agritech Limited,INE435G01025,NIFTY TOTAL MARKET,dhanuka agritech
+DEN,DENEQN,Den Networks Limited,INE947J01015,NIFTY TOTAL MARKET,den networks
+GANESHHOUC,GANESHHOUCEQN,Ganesh Housing Corporation Limited,INE460C01014,NIFTY TOTAL MARKET,ganesh housing corporation
+JSWSTEEL,JSWSTEELEQN,JSW Steel Limited,INE019A01038,NIFTY TOTAL MARKET,jsw steel
+TARSONS,TARSONSEQN,Tarsons Products Limited,INE144Z01023,NIFTY TOTAL MARKET,tarsons products
+MAHLOG,MAHLOGEQN,Mahindra Logistics Limited,INE766P01016,NIFTY TOTAL MARKET,mahindra logistics
+TEXRAIL,TEXRAILEQN,Texmaco Rail & Engineering Limited,INE621L01012,NIFTY TOTAL MARKET,texmaco rail engineering
+NEWGEN,NEWGENEQN,Newgen Software Technologies Limited,INE619B01017,NIFTY TOTAL MARKET,newgen software technologies
+BEPL,BEPLEQN,Bhansali Engineering Polymers Limited,INE922A01025,NIFTY TOTAL MARKET,bhansali engineering polymers
+ADVENZYMES,ADVENZYMESEQN,Advanced Enzyme Technologies Limited,INE837H01020,NIFTY TOTAL MARKET,advanced enzyme technologies
+SHARDAMOTR,SHARDAMOTREQN,Sharda Motor Industries Limited,INE597I01028,NIFTY TOTAL MARKET,sharda motor industries
+PATELENG,PATELENGEQN,Patel Engineering Limited,INE244B01030,NIFTY TOTAL MARKET,patel engineering
+ISGEC,ISGECEQN,Isgec Heavy Engineering Limited,INE858B01029,NIFTY TOTAL MARKET,isgec heavy engineering
+DHANI,DHANIEQN,Dhani Services Limited,INE274G01010,NIFTY TOTAL MARKET,dhani services
+BECTORFOOD,BECTORFOODEQN,Mrs. Bectors Food Specialities Limited,INE495P01012,NIFTY TOTAL MARKET,mrs bectors food specialities
+HIKAL,HIKALEQN,Hikal Limited,INE475B01022,NIFTY TOTAL MARKET,hikal
+RAMKY,RAMKYEQN,Ramky Infrastructure Limited,INE874I01013,NIFTY TOTAL MARKET,ramky infrastructure
+IFCI,IFCIEQN,IFCI Limited,INE039A07751,NIFTY TOTAL MARKET,ifci
+CMSINFO,CMSINFOEQN,CMS Info Systems Limited,INE925R01014,NIFTY TOTAL MARKET,cms info systems
+WSTCSTPAPR,WSTCSTPAPREQN,West Coast Paper Mills Limited,INE976A01021,NIFTY TOTAL MARKET,west coast paper mills
+JAICORPLTD,JAICORPLTDEQN,Jai Corp Limited,INE070D01027,NIFTY TOTAL MARKET,jai corp
+KSCL,KSCLEQN,Kaveri Seed Company Limited,INE455I01029,NIFTY TOTAL MARKET,kaveri seed
+RATEGAIN,RATEGAINEQN,Rategain Travel Technologies Limited,INE0CLI01024,NIFTY TOTAL MARKET,rategain travel technologies
+MIDHANI,MIDHANIEQN,Mishra Dhatu Nigam Limited,INE099Z01011,NIFTY TOTAL MARKET,mishra dhatu nigam
+GRINFRA,GRINFRAEQN,G R Infraprojects Limited,INE201P01022,NIFTY TOTAL MARKET,g r infraprojects
+SUNFLAG,SUNFLAGEQN,Sunflag Iron And Steel Company Limited,INE947A01014,NIFTY TOTAL MARKET,sunflag iron and steel
+SANDUMA,SANDUMAEQN,Sandur Manganese & Iron Ores Limited,INE149K01016,NIFTY TOTAL MARKET,sandur manganese iron ores
+ELECTCAST,ELECTCASTEQN,Electrosteel Castings Limited,INE086A01029,NIFTY TOTAL MARKET,electrosteel castings
+NESCO,NESCOEQN,Nesco Limited,INE317F01035,NIFTY TOTAL MARKET,nesco
+DELTACORP,DELTACORPEQN,Delta Corp Limited,INE124G01033,NIFTY TOTAL MARKET,delta corp
+EMBDL,EMBDLEQN,Equinox India Developments Limited,INE069I01010,NIFTY TOTAL MARKET,equinox india developments
+JYOTICNC,JYOTICNCEQN,Jyoti CNC Automation Limited,INE980O01024,NIFTY TOTAL MARKET,jyoti cnc automation
+JTLIND,JTLINDEQN,JTL INDUSTRIES LIMITED,INE391J01024,NIFTY TOTAL MARKET,jtl industries
+SHAREINDIA,SHAREINDIAEQN,Share India Securities Limited,INE932X01026,NIFTY TOTAL MARKET,share india securities
+PRICOLLTD,PRICOLLTDEQN,Pricol Limited,INE726V01018,NIFTY TOTAL MARKET,pricol
+SANSERA,SANSERAEQN,Sansera Engineering Limited,INE953O01021,NIFTY TOTAL MARKET,sansera engineering
+DBREALTY,DBREALTYEQN,Valor Estate Limited,INE879I01012,NIFTY TOTAL MARKET,valor estate
+LLOYDSENGG,LLOYDSENGGEQN,LLOYDS ENGINEERING WORKS LIMITED,INE093R01011,NIFTY TOTAL MARKET,lloyds engineering works
+CAMLINFINE,CAMLINFINEEQN,Camlin Fine Sciences Limited,INE052I01032,NIFTY TOTAL MARKET,camlin fine sciences
+POWERMECH,POWERMECHEQN,Power Mech Projects Limited,INE211R01019,NIFTY TOTAL MARKET,power mech projects
+ZYDUSWELL,ZYDUSWELLEQN,Zydus Wellness Limited,INE768C01010,NIFTY TOTAL MARKET,zydus wellness
+GULFOILLUB,GULFOILLUBEQN,Gulf Oil Lubricants India Limited,INE635Q01029,NIFTY TOTAL MARKET,gulf oil lubricants india
+BAJAJHIND,BAJAJHINDEQN,Bajaj Hindusthan Sugar Limited,INE306A01021,NIFTY TOTAL MARKET,bajaj hindusthan sugar
+RALLIS,RALLISEQN,Rallis India Limited,INE613A01020,NIFTY TOTAL MARKET,rallis india
+SUPRAJIT,SUPRAJITEQN,Suprajit Engineering Limited,INE399C01030,NIFTY TOTAL MARKET,suprajit engineering
+IDEAFORGE,IDEAFORGEEQN,Ideaforge Technology Limited,INE349Y01013,NIFTY TOTAL MARKET,ideaforge technology
+UFLEX,UFLEXEQN,UFLEX Limited,INE516A01017,NIFTY TOTAL MARKET,uflex
+TI,TIEQN,Tilaknagar Industries Limited,INE133E01013,NIFTY TOTAL MARKET,tilaknagar industries
+BOMDYEING,BOMDYEINGEQN,Bombay Dyeing & Mfg Company Limited,INE032A01023,NIFTY TOTAL MARKET,bombay dyeing mfg
+HGINFRA,HGINFRAEQN,H.G. Infra Engineering Limited,INE926X01010,NIFTY TOTAL MARKET,hg infra engineering
+BLUEJET,BLUEJETEQN,Blue Jet Healthcare Limited,INE0KBH01020,NIFTY TOTAL MARKET,blue jet healthcare
+UTKARSHBNK,UTKARSHBNKEQN,Utkarsh Small Finance Bank Limited,INE735W01017,NIFTY TOTAL MARKET,utkarsh small finance bank
+GABRIEL,GABRIELEQN,Gabriel India Limited,INE524A01029,NIFTY TOTAL MARKET,gabriel india
+EVEREADY,EVEREADYEQN,Eveready Industries India Limited,INE128A01029,NIFTY TOTAL MARKET,eveready industries india
+HATHWAY,HATHWAYEQN,Hathway Cable & Datacom Limited,INE982F01036,NIFTY TOTAL MARKET,hathway cable datacom
+ACCELYA,ACCELYAEQN,Accelya Solutions India Limited,INE793A01012,NIFTY TOTAL MARKET,accelya solutions india
+CONFIPET,CONFIPETEQN,Confidence Petroleum India Limited,INE552D01024,NIFTY TOTAL MARKET,confidence petroleum india
+SSWL,SSWLEQN,Steel Strips Wheels Limited,INE802C01033,NIFTY TOTAL MARKET,steel strips wheels
+KTKBANK,KTKBANKEQN,The Karnataka Bank Limited,INE614B01018,NIFTY TOTAL MARKET,the karnataka bank
+ASTRAMICRO,ASTRAMICROEQN,Astra Microwave Products Limited,INE386C01029,NIFTY TOTAL MARKET,astra microwave products
+NAZARA,NAZARAEQN,Nazara Technologies Limited,INE418L01021,NIFTY TOTAL MARKET,nazara technologies
+TARC,TARCBEN,Anant Raj Global Limited,INE0EK901012,NIFTY TOTAL MARKET,anant raj global
+FIEMIND,FIEMINDEQN,Fiem Industries Limited,INE737H01014,NIFTY TOTAL MARKET,fiem industries
+NAVNETEDUL,NAVNETEDULEQN,Navneet Education Limited,INE060A01024,NIFTY TOTAL MARKET,navneet education
+JCHAC,JCHACEQN,Johnson Controls - Hitachi Air Conditioning India Limited,INE782A01015,NIFTY TOTAL MARKET,johnson controls hitachi air conditioning india
+INDIAGLYCO,INDIAGLYCOEQN,India Glycols Limited,INE560A01015,NIFTY TOTAL MARKET,india glycols
+IFBIND,IFBINDEQN,IFB Industries Limited,INE559A01017,NIFTY TOTAL MARKET,ifb industries
+HCC,HCCEQN,Hindustan Construction Company Limited,INE549A01026,NIFTY TOTAL MARKET,hindustan construction
+NRBBEARING,NRBBEARINGEQN,NRB Bearing Limited,INE349A01021,NIFTY TOTAL MARKET,nrb bearing
+KESORAMIND,KESORAMINDEQN,Kesoram Industries Limited,INE087A01019,NIFTY TOTAL MARKET,kesoram industries
+HEMIPROP,HEMIPROPEQN,Hemisphere Properties India Limited,INE0AJG01018,NIFTY TOTAL MARKET,hemisphere properties india
+KALAMANDIR,KALAMANDIREQN,Sai Silks (Kalamandir) Limited,INE438K01021,NIFTY TOTAL MARKET,sai silks kalamandir
+MOIL,MOILEQN,MOIL Limited,INE490G01020,NIFTY TOTAL MARKET,moil
+FLAIR,FLAIREQN,Flair Writing Industries Limited,INE00Y201027,NIFTY TOTAL MARKET,flair writing industries
+RAIN,RAINEQN,Rain Industries Limited,INE855B01025,NIFTY TOTAL MARKET,rain industries
+IONEXCHANG,IONEXCHANGEQN,ION Exchange (India) Limited,INE570A01022,NIFTY TOTAL MARKET,ion exchange india
+GREAVESCOT,GREAVESCOTEQN,Greaves Cotton Limited,INE224A01026,NIFTY TOTAL MARKET,greaves cotton
+JKIL,JKILEQN,J.Kumar Infraprojects Limited,INE576I01022,NIFTY TOTAL MARKET,jkumar infraprojects
+JKTYRE,JKTYREEQN,JK Tyre & Industries Limited,INE573A01042,NIFTY TOTAL MARKET,jk tyre industries
+VOLTAMP,VOLTAMPEQN,Voltamp Transformers Limited,INE540H01012,NIFTY TOTAL MARKET,voltamp transformers
+TIMETECHNO,TIMETECHNOEQN,Time Technoplast Limited,INE508G01029,NIFTY TOTAL MARKET,time technoplast
+EDELWEISS,EDELWEISSEQN,Edelweiss Financial Services Limited,INE532F01054,NIFTY TOTAL MARKET,edelweiss financial services
+JAMNAAUTO,JAMNAAUTOEQN,Jamna Auto Industries Limited,INE039C01032,NIFTY TOTAL MARKET,jamna auto industries
+NETWEB,NETWEBEQN,Netweb Technologies India Limited,INE0NT901020,NIFTY TOTAL MARKET,netweb technologies india
+BANCOINDIA,BANCOINDIAEQN,Banco Products (I) Limited,INE213C01025,NIFTY TOTAL MARKET,banco products i
+RELIGARE,RELIGAREEQN,Religare Enterprises Limited,INE621H01010,NIFTY TOTAL MARKET,religare enterprises
+BAJAJCON,BAJAJCONEQN,Bajaj Consumer Care Limited,INE933K01021,NIFTY TOTAL MARKET,bajaj consumer care
+JUNIPER,JUNIPEREQN,Juniper Hotels Limited,INE696F01016,NIFTY TOTAL MARKET,juniper hotels
+JPPOWER,JPPOWEREQN,Jaiprakash Power Ventures Limited,INE351F01018,NIFTY TOTAL MARKET,jaiprakash power ventures
+NEULANDLAB,NEULANDLABEQN,Neuland Laboratories Limited,INE794A01010,NIFTY TOTAL MARKET,neuland laboratories
+ORISSAMINE,ORISSAMINEEQN,The Orissa Minerals Development Company Limited,INE725E01024,NIFTY TOTAL MARKET,the orissa minerals development
+SURYAROSNI,SURYAROSNIEQN,Surya Roshni Limited,INE335A01020,NIFTY TOTAL MARKET,surya roshni
+GOKEX,GOKEXEQN,Gokaldas Exports Limited,INE887G01027,NIFTY TOTAL MARKET,gokaldas exports
+TECHNOE,TECHNOEEQN,Techno Electric & Engineering Company Limited,INE285K01026,NIFTY TOTAL MARKET,techno electric engineering
+IKIO,IKIOEQN,IKIO Lighting Limited,INE0LOJ01019,NIFTY TOTAL MARKET,ikio lighting
+SANGHVIMOV,SANGHVIMOVEQN,Sanghvi Movers Limited,INE989A01024,NIFTY TOTAL MARKET,sanghvi movers
+GALAXYSURF,GALAXYSURFEQN,Galaxy Surfactants Limited,INE600K01018,NIFTY TOTAL MARKET,galaxy surfactants
+LGBBROSLTD,LGBBROSLTDEQN,LG Balakrishnan & Bros Limited,INE337A01034,NIFTY TOTAL MARKET,lg balakrishnan bros
+SPANDANA,SPANDANAEQN,Spandana Sphoorty Financial Limited,INE572J01011,NIFTY TOTAL MARKET,spandana sphoorty financial
+SAMHI,SAMHIEQN,Samhi Hotels Limited,INE08U801020,NIFTY TOTAL MARKET,samhi hotels
+TIRUMALCHM,TIRUMALCHMEQN,Thirumalai Chemicals Limited,INE338A01024,NIFTY TOTAL MARKET,thirumalai chemicals
+IMFA,IMFAEQN,Indian Metals & Ferro Alloys Limited,INE919H01018,NIFTY TOTAL MARKET,indian metals ferro alloys
+AARTIDRUGS,AARTIDRUGSEQN,Aarti Drugs Limited,INE767A01016,NIFTY TOTAL MARKET,aarti drugs
+GRWRHITECH,GRWRHITECHEQN,Garware Hi-Tech Films Limited,INE291A01017,NIFTY TOTAL MARKET,garware hitech films
+LANDMARK,LANDMARKEQN,Landmark Cars Limited,INE559R01029,NIFTY TOTAL MARKET,landmark cars
+MASFIN,MASFINEQN,MAS Financial Services Limited,INE348L01012,NIFTY TOTAL MARKET,mas financial services
+TIPSINDLTD,TIPSINDLTDEQN,TIPS Industries Limited,INE716B01029,NIFTY TOTAL MARKET,tips industries
+ICIL,ICILEQN,Indo Count Industries Limited,INE483B01026,NIFTY TOTAL MARKET,indo count industries
+IOLCP,IOLCPEQN,IOL Chemicals and Pharmaceuticals Limited,INE485C01011,NIFTY TOTAL MARKET,iol chemicals and pharmaceuticals
+TEAMLEASE,TEAMLEASEEQN,Teamlease Services Limited,INE985S01024,NIFTY TOTAL MARKET,teamlease services
+ESAFSFB,ESAFSFBEQN,ESAF Small Finance Bank Limited,INE818W01011,NIFTY TOTAL MARKET,esaf small finance bank
+DREAMFOLKS,DREAMFOLKSEQN,Dreamfolks Services Limited,INE0JS101016,NIFTY TOTAL MARKET,dreamfolks services
+EPIGRAL,EPIGRALEQN,Epigral Limited,INE071N01016,NIFTY TOTAL MARKET,epigral
+SBCL,SBCLEQN,Shivalik Bimetal Controls Limited,INE386D01027,NIFTY TOTAL MARKET,shivalik bimetal controls
+CHOICEIN,CHOICEINEQN,Choice International Limited,INE102B01014,NIFTY TOTAL MARKET,choice international
+IPL,IPLEQN,India Pesticides Limited,INE0D6701023,NIFTY TOTAL MARKET,india pesticides
+JISLJALEQS,JISLJALEQSEQN,Jain Irrigation Systems Limited,INE175A01038,NIFTY TOTAL MARKET,jain irrigation systems
+JLHL,JLHLEQN,Jupiter Life Line Hospitals Limited,INE682M01012,NIFTY TOTAL MARKET,jupiter life line hospitals
+SHRIRAMFIN,SHRIRAMFINEQN,Shriram Finance Limited,INE721A07HK4,NIFTY TOTAL MARKET,shriram finance
+STAR,STAREQN,Strides Pharma Science Limited,INE939A01011,NIFTY TOTAL MARKET,strides pharma science
+FEDFINA,FEDFINAEQN,Fedbank Financial Services Limited,INE007N01010,NIFTY TOTAL MARKET,fedbank financial services
+DATAMATICS,DATAMATICSEQN,Datamatics Global Services Limited,INE365B01017,NIFTY TOTAL MARKET,datamatics global services
+EMUDHRA,EMUDHRAEQN,eMudhra Limited,INE01QM01018,NIFTY TOTAL MARKET,emudhra
+SUDARSCHEM,SUDARSCHEMEQN,Sudarshan Chemical Industries Limited,INE659A01023,NIFTY TOTAL MARKET,sudarshan chemical industries
+ASKAUTOLTD,ASKAUTOLTDEQN,ASK Automotive Limited,INE491J01022,NIFTY TOTAL MARKET,ask automotive
+PARADEEP,PARADEEPEQN,Paradeep Phosphates Limited,INE088F01024,NIFTY TOTAL MARKET,paradeep phosphates
+SULA,SULAEQN,Sula Vineyards Limited,INE142Q01026,NIFTY TOTAL MARKET,sula vineyards
+ORIENTCEM,ORIENTCEMEQN,Orient Cement Limited,INE876N01018,NIFTY TOTAL MARKET,orient cement
+AZAD,AZADEQN,Azad Engineering Limited,INE02IJ01035,NIFTY TOTAL MARKET,azad engineering
+SEQUENT,SEQUENTEQN,Sequent Scientific Limited,INE807F01027,NIFTY TOTAL MARKET,sequent scientific
+VSTTILLERS,VSTTILLERSEQN,V.S.T Tillers Tractors Limited,INE764D01017,NIFTY TOTAL MARKET,vst tillers tractors
+KPIGREEN,KPIGREENBEN,KPI Green Energy Limited,INE542W01025,NIFTY TOTAL MARKET,kpi green energy
+STYLAMIND,STYLAMINDEQN,Stylam Industries Limited,INE239C01020,NIFTY TOTAL MARKET,stylam industries
+SHILPAMED,SHILPAMEDEQN,Shilpa Medicare Limited,INE790G01031,NIFTY TOTAL MARKET,shilpa medicare
+GUFICBIO,GUFICBIOEQN,Gufic Biosciences Limited,INE742B01025,NIFTY TOTAL MARKET,gufic biosciences
+HLEGLAS,HLEGLASEQN,HLE Glascoat Limited,INE461D01028,NIFTY TOTAL MARKET,hle glascoat
+VRLLOG,VRLLOGEQN,VRL Logistics Limited,INE366I01010,NIFTY TOTAL MARKET,vrl logistics
+MANINFRA,MANINFRAEQN,Man Infraconstruction Limited,INE949H01023,NIFTY TOTAL MARKET,man infraconstruction
+SARDAEN,SARDAENEQN,Sarda Energy & Minerals Limited,INE385C01021,NIFTY TOTAL MARKET,sarda energy minerals
+ARVIND,ARVINDEQN,Arvind Limited,INE034A01011,NIFTY TOTAL MARKET,arvind
+CARERATING,CARERATINGEQN,CARE Ratings Limited,INE752H01013,NIFTY TOTAL MARKET,care ratings
+SINDHUTRAD,SINDHUTRADEQN,Sindhu Trade Links Limited,INE325D01025,NIFTY TOTAL MARKET,sindhu trade links
+SOUTHBANK,SOUTHBANKEQN,The South Indian Bank Limited,INE683A01023,NIFTY TOTAL MARKET,the south indian bank
+WELENT,WELENTEQN,Welspun Enterprises Limited,INE625G01013,NIFTY TOTAL MARKET,welspun enterprises
+GREENPANEL,GREENPANELEQN,Greenpanel Industries Limited,INE08ZM01014,NIFTY TOTAL MARKET,greenpanel industries
+HINDOILEXP,HINDOILEXPEQN,Hindustan Oil Exploration Company Limited,INE345A01011,NIFTY TOTAL MARKET,hindustan oil exploration
+CYIENTDLM,CYIENTDLMEQN,Cyient DLM Limited,INE055S01018,NIFTY TOTAL MARKET,cyient dlm
+CIGNITITEC,CIGNITITECEQN,Cigniti Technologies Limited,INE675C01017,NIFTY TOTAL MARKET,cigniti technologies
+GODREJAGRO,GODREJAGROEQN,Godrej Agrovet Limited,INE850D01014,NIFTY TOTAL MARKET,godrej agrovet
+UNIPARTS,UNIPARTSEQN,Uniparts India Limited,INE244O01017,NIFTY TOTAL MARKET,uniparts india
+ARVINDFASN,ARVINDFASNEQN,Arvind Fashions Limited,INE955V01021,NIFTY TOTAL MARKET,arvind fashions
+DBCORP,DBCORPEQN,D.B.Corp Limited,INE950I01011,NIFTY TOTAL MARKET,dbcorp
+PURVA,PURVABEN,Puravankara Limited,INE323I01011,NIFTY TOTAL MARKET,puravankara
+LUXIND,LUXINDEQN,Lux Industries Limited,INE150G01020,NIFTY TOTAL MARKET,lux industries
+LAOPALA,LAOPALAEQN,La Opala RG Limited,INE059D01020,NIFTY TOTAL MARKET,la opala rg
+PSPPROJECT,PSPPROJECTEQN,PSP Projects Limited,INE488V01015,NIFTY TOTAL MARKET,psp projects
+WONDERLA,WONDERLAEQN,Wonderla Holidays Limited,INE066O01014,NIFTY TOTAL MARKET,wonderla holidays
+HINDWAREAP,HINDWAREAPEQN,Hindware Home Innovation Limited,INE05AN01011,NIFTY TOTAL MARKET,hindware home innovation
+PAISALO,PAISALOEQN,Paisalo Digital Limited,INE420C01059,NIFTY TOTAL MARKET,paisalo digital
+DBL,DBLEQN,Dilip Buildcon Limited,INE917M01012,NIFTY TOTAL MARKET,dilip buildcon
+POLYPLEX,POLYPLEXEQN,Polyplex Corporation Limited,INE633B01018,NIFTY TOTAL MARKET,polyplex corporation
+TDPOWERSYS,TDPOWERSYSEQN,TD Power Systems Limited,INE419M01027,NIFTY TOTAL MARKET,td power systems
+DISHTV,DISHTVEQN,Dish TV India Limited,IN9836F01016,NIFTY TOTAL MARKET,dish tv india
+INFIBEAM,INFIBEAMBEN,Infibeam Avenues Limited,INE483S01020,NIFTY TOTAL MARKET,infibeam avenues
+LTFOODS,LTFOODSEQN,LT Foods Limited,INE818H01020,NIFTY TOTAL MARKET,lt foods
+DODLA,DODLAEQN,Dodla Dairy Limited,INE021O01019,NIFTY TOTAL MARKET,dodla dairy
+SANGHIIND,SANGHIINDEQN,Sanghi Industries Limited,INE999B01013,NIFTY TOTAL MARKET,sanghi industries
+RESPONIND,RESPONINDEQN,Responsive Industries Limited,INE688D01026,NIFTY TOTAL MARKET,responsive industries
+OPTIEMUS,OPTIEMUSEQN,Optiemus Infracom Limited,INE350C01017,NIFTY TOTAL MARKET,optiemus infracom
+SPLPETRO,SPLPETROEQN,Supreme Petrochem Limited,INE663A01033,NIFTY TOTAL MARKET,supreme petrochem
+BARBEQUE,BARBEQUEEQN,Barbeque Nation Hospitality Limited,INE382M01027,NIFTY TOTAL MARKET,barbeque nation hospitality
+NOCIL,NOCILEQN,NOCIL Limited,INE163A01018,NIFTY TOTAL MARKET,nocil
+INDIASHLTR,INDIASHLTREQN,India Shelter Finance Corporation Limited,INE922K01024,NIFTY TOTAL MARKET,india shelter finance corporation
+MUTHOOTMF,MUTHOOTMFEQN,Muthoot Microfin Limited,INE046W01019,NIFTY TOTAL MARKET,muthoot microfin
+INDOCO,INDOCOEQN,Indoco Remedies Limited,INE873D01024,NIFTY TOTAL MARKET,indoco remedies
+VMART,VMARTEQN,V-Mart Retail Limited,INE665J01013,NIFTY TOTAL MARKET,vmart retail
+MSTCLTD,MSTCLTDEQN,Mstc Limited,INE255X01014,NIFTY TOTAL MARKET,mstc
+AGI,AGIEQN,AGI Greenpac Limited,INE415A01038,NIFTY TOTAL MARKET,agi greenpac
+VENKEYS,VENKEYSEQN,Venky's (India) Limited,INE398A01010,NIFTY TOTAL MARKET,venkys india
+EMIL,EMILEQN,Electronics Mart India Limited,INE02YR01019,NIFTY TOTAL MARKET,electronics mart india
+KIRLOSENG,KIRLOSENGEQN,Kirloskar Oil Engines Limited,INE146L01010,NIFTY TOTAL MARKET,kirloskar oil engines
+SFL,SFLEQN,Sheela Foam Limited,INE916U01025,NIFTY TOTAL MARKET,sheela foam
+INGERRAND,INGERRANDEQN,Ingersoll Rand (India) Limited,INE177A01018,NIFTY TOTAL MARKET,ingersoll rand india
+STARCEMENT,STARCEMENTEQN,Star Cement Limited,INE460H01021,NIFTY TOTAL MARKET,star cement
+KOLTEPATIL,KOLTEPATILEQN,Kolte - Patil Developers Limited,INE094I01018,NIFTY TOTAL MARKET,kolte patil developers
+JTEKTINDIA,JTEKTINDIAEQN,Jtekt India Limited,INE643A01035,NIFTY TOTAL MARKET,jtekt india
+ORIENTELEC,ORIENTELECEQN,Orient Electric Limited,INE142Z01019,NIFTY TOTAL MARKET,orient electric
+SAGCEM,SAGCEMEQN,Sagar Cements Limited,INE229C01021,NIFTY TOTAL MARKET,sagar cements
+DCXINDIA,DCXINDIABEN,DCX Systems Limited,INE0KL801015,NIFTY TOTAL MARKET,dcx systems
+DCBBANK,DCBBANKEQN,DCB Bank Limited,INE503A01015,NIFTY TOTAL MARKET,dcb bank
+AVALON,AVALONEQN,Avalon Technologies Limited,INE0LCL01028,NIFTY TOTAL MARKET,avalon technologies
+GLOBUSSPR,GLOBUSSPREQN,Globus Spirits Limited,INE615I01010,NIFTY TOTAL MARKET,globus spirits
+ZENTEC,ZENTECEQN,Zen Technologies Limited,INE251B01027,NIFTY TOTAL MARKET,zen technologies
+ROSSARI,ROSSARIEQN,Rossari Biotech Limited,INE02A801020,NIFTY TOTAL MARKET,rossari biotech
+GUJALKALI,GUJALKALIEQN,Gujarat Alkalies and Chemicals Limited,INE186A01019,NIFTY TOTAL MARKET,gujarat alkalies and chemicals
+NIITMTS,NIITMTSEQN,NIIT Learning Systems Limited,INE342G01023,NIFTY TOTAL MARKET,niit learning systems
+GOCOLORS,GOCOLORSEQN,Go Fashion (India) Limited,INE0BJS01011,NIFTY TOTAL MARKET,go fashion india
+GHCL,GHCLEQN,GHCL Limited,INE539A01019,NIFTY TOTAL MARKET,ghcl
+ETHOSLTD,ETHOSLTDEQN,Ethos Limited,INE04TZ01018,NIFTY TOTAL MARKET,ethos
+PGEL,PGELEQN,PG Electroplast Limited,INE457L01029,NIFTY TOTAL MARKET,pg electroplast
+NUCLEUS,NUCLEUSEQN,Nucleus Software Exports Limited,INE096B01018,NIFTY TOTAL MARKET,nucleus software exports
+FCL,FCLEQN,Fineotex Chemical Limited,INE045J01026,NIFTY TOTAL MARKET,fineotex chemical
+INOXINDIA,INOXINDIAEQN,INOX India Limited,INE616N01034,NIFTY TOTAL MARKET,inox india
+SENCO,SENCOEQN,Senco Gold Limited,INE602W01019,NIFTY TOTAL MARKET,senco gold
+PDSL,PDSLEQN,PDS Limited,INE111Q01021,NIFTY TOTAL MARKET,pds
+PTC,PTCEQN,PTC India Limited,INE877F01012,NIFTY TOTAL MARKET,ptc india
+SHOPERSTOP,SHOPERSTOPEQN,Shoppers Stop Limited,INE498B01024,NIFTY TOTAL MARKET,shoppers stop
+TVSHLTD,TVSHLTDEQN,TVS Holdings Limited,INE105A04013,NIFTY TOTAL MARKET,tvs holdings
+BASF,BASFEQN,BASF India Limited,INE373A01013,NIFTY TOTAL MARKET,basf india
+HMAAGRO,HMAAGROEQN,HMA Agro Industries Limited,INE0ECP01024,NIFTY TOTAL MARKET,hma agro industries
+SUNCLAY,SUNCLAYEQN,Sundaram Clayton Limited,INE0Q3R01026,NIFTY TOTAL MARKET,sundaram clayton
+HEIDELBERG,HEIDELBERGEQN,HeidelbergCement India Limited,INE578A01017,NIFTY TOTAL MARKET,heidelbergcement india
+ASHOKA,ASHOKAEQN,Ashoka Buildcon Limited,INE442H01029,NIFTY TOTAL MARKET,ashoka buildcon
+TTKPRESTIG,TTKPRESTIGEQN,TTK Prestige Limited,INE690A01028,NIFTY TOTAL MARKET,ttk prestige
+REDTAPE,REDTAPEEQN,Redtape Limited,INE0LXT01019,NIFTY TOTAL MARKET,redtape
+RTNPOWER,RTNPOWEREQN,RattanIndia Power Limited,INE399K01017,NIFTY TOTAL MARKET,rattanindia power
+WOCKPHARMA,WOCKPHARMABEN,Wockhardt Limited,INE049B01025,NIFTY TOTAL MARKET,wockhardt
+GREENPLY,GREENPLYEQN,Greenply Industries Limited,INE461C01038,NIFTY TOTAL MARKET,greenply industries
+FUSION,FUSIONEQN,Fusion Finance Limited,INE139R01012,NIFTY TOTAL MARKET,fusion finance
+GATEWAY,GATEWAYEQN,Gateway Distriparks Limited,INE079J01017,NIFTY TOTAL MARKET,gateway distriparks
+THOMASCOOK,THOMASCOOKEQN,Thomas Cook  (India)  Limited,INE332A04021,NIFTY TOTAL MARKET,thomas cook india
+GRAVITA,GRAVITAEQN,Gravita India Limited,INE024L01027,NIFTY TOTAL MARKET,gravita india
+AARTIPHARM,AARTIPHARMEQN,Aarti Pharmalabs Limited,INE0LRU01027,NIFTY TOTAL MARKET,aarti pharmalabs
+NFL,NFLEQN,National Fertilizers Limited,INE870D01012,NIFTY TOTAL MARKET,national fertilizers
+BALMLAWRIE,BALMLAWRIEEQN,Balmer Lawrie & Company Limited,INE164A01016,NIFTY TOTAL MARKET,balmer lawrie
+TEGA,TEGAEQN,Tega Industries Limited,INE011K01018,NIFTY TOTAL MARKET,tega industries
+NAVA,NAVAEQN,NAVA LIMITED,INE725A01022,NIFTY TOTAL MARKET,nava
+IFCI,IFCIEQN,IFCI Limited,INE039A07769,NIFTY MICROCAP 250,ifci
+SHAREINDIA,SHAREINDIAEQN,Share India Securities Limited,INE932X13013,NIFTY MICROCAP 250,share india securities
+DISHTV,DISHTVEQN,Dish TV India Limited,INE836F01026,NIFTY MICROCAP 250,dish tv india
+PSB,PSBEQN,Punjab & Sind Bank,INE608A01012,NIFTY PSU BANK,punjab sind bank
