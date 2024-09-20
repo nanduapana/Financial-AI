@@ -61,9 +61,10 @@ LLM in NLP and AI are now easily available to public through openAI’s chat GPT
 
 ![image](https://github.com/user-attachments/assets/ef785ef6-2e5e-4c77-9a4d-9c6bc4974ffa)
 
-## Example OUTPUT
+## Output
 
-![image](https://github.com/user-attachments/assets/72f6f4e6-8982-4a47-ac35-a30cec46803e)
+![image](https://github.com/user-attachments/assets/2fbdc2f8-3809-40e1-9282-f8e4a66a1c65)
+
 
 ## Challenges faced and Future Scope
 
